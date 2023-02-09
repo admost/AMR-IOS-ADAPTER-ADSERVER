@@ -1,0 +1,185 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdmostAdServer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+import CoreTelephony
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol AASInterstitialDelegate {
+  @objc optional func interstitialDidReceive(_ interstitial: AdmostAdServer.AASInterstitial)
+  @objc optional func interstitialDidFailToReceive(_ interstitial: AdmostAdServer.AASInterstitial, error: Foundation.NSError)
+  @objc optional func interstitialDidFailToPresent(_ interstitial: AdmostAdServer.AASInterstitial, error: Foundation.NSError)
+  @objc optional func interstitialDidPresent(_ interstitial: AdmostAdServer.AASInterstitial)
+  @objc optional func interstitialDidDismiss(_ interstitial: AdmostAdServer.AASInterstitial)
+  @objc optional func interstitialDidClick(_ interstitial: AdmostAdServer.AASInterstitial)
+}
+@objc public class AASInterstitial : AdmostAdServer.BaseAd {
+  @objc weak public var delegate: AdmostAdServer.AASInterstitialDelegate?
+  @objc public var zoneId: Swift.String {
+    get
+  }
+  @objc public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc public init(zoneId: Swift.String)
+  @objc public func load()
+  @objc public func show(_ fromVC: UIKit.UIViewController)
+  @objc deinit
+}
+@objc public enum AdStatus : Swift.Int {
+  case new = 0
+  case loading = 1
+  case loaded = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class BaseAd : ObjectiveC.NSObject {
+  @objc public enum Status : Swift.Int {
+    case new = 0
+    case loading = 1
+    case loaded = 2
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public var customData: [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol AASBannerViewDelegate {
+  @objc optional func bannerDidReceive(_ banner: AdmostAdServer.AASBannerView)
+  @objc optional func bannerDidFailToReceive(_ banner: AdmostAdServer.AASBannerView, error: Foundation.NSError)
+  @objc optional func bannerDidPresent(_ banner: AdmostAdServer.AASBannerView)
+  @objc optional func bannerDidClick(_ banner: AdmostAdServer.AASBannerView)
+  @objc optional func bannerDidDismiss(_ banner: AdmostAdServer.AASBannerView)
+}
+@objc public enum AASBannerSize : Swift.Int {
+  case banner
+  case mpu
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class AASBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: AdmostAdServer.AASBannerViewDelegate?
+  @objc @_Concurrency.MainActor(unsafe) public var customData: [Swift.String : Any]?
+  @objc @_Concurrency.MainActor(unsafe) public var zoneId: Swift.String {
+    get
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc @_Concurrency.MainActor(unsafe) public init(zoneId: Swift.String, size: AdmostAdServer.AASBannerSize)
+  @objc @_Concurrency.MainActor(unsafe) public func load()
+  @objc deinit
+}
+@objc public protocol AASRewardedDelegate {
+  @objc optional func rewardedDidReceive(_ rewarded: AdmostAdServer.AASRewarded)
+  @objc optional func rewardedDidFailToReceive(_ rewarded: AdmostAdServer.AASRewarded, error: Foundation.NSError)
+  @objc optional func rewardedDidFailToPresent(_ rewarded: AdmostAdServer.AASRewarded, error: Foundation.NSError)
+  @objc optional func rewardedDidPresent(_ rewarded: AdmostAdServer.AASRewarded)
+  @objc optional func rewardedDidComplete(_ rewarded: AdmostAdServer.AASRewarded)
+  @objc optional func rewardedDidDismiss(_ rewarded: AdmostAdServer.AASRewarded)
+  @objc optional func rewardedDidClick(_ rewarded: AdmostAdServer.AASRewarded)
+}
+@objc public class AASRewarded : AdmostAdServer.BaseAd {
+  @objc weak public var delegate: AdmostAdServer.AASRewardedDelegate?
+  @objc public var zoneId: Swift.String {
+    get
+  }
+  @objc public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc public init(zoneId: Swift.String)
+  @objc public func load()
+  @objc public func show(_ fromVC: UIKit.UIViewController)
+  @objc deinit
+}
+@objc public protocol AASNativeAdDelegate {
+  @objc optional func nativeAdDidReceive(_ nativeAd: AdmostAdServer.AASNativeAd)
+  @objc optional func nativeAdDidFailToReceive(_ nativeAd: AdmostAdServer.AASNativeAd, error: Foundation.NSError)
+  @objc optional func nativeAdDidClick(_ nativeAd: AdmostAdServer.AASNativeAd)
+}
+@objc public class AASNativeAd : ObjectiveC.NSObject {
+  @objc weak public var delegate: AdmostAdServer.AASNativeAdDelegate?
+  @objc public var customData: [Swift.String : Any]?
+  @objc public var zoneId: Swift.String {
+    get
+  }
+  @objc public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc public var mediaView: UIKit.UIView? {
+    get
+  }
+  @objc public var ctaText: Swift.String? {
+    get
+  }
+  @objc public var title: Swift.String? {
+    get
+  }
+  @objc public var desc: Swift.String? {
+    get
+  }
+  @objc public var icon: UIKit.UIImage? {
+    get
+  }
+  @objc public var privacyIcon: UIKit.UIImage? {
+    get
+  }
+  @objc public init(zoneId: Swift.String)
+  @objc public func load()
+  @objc public func register(privacyView: UIKit.UIView)
+  @objc public func register(clickableViews: [UIKit.UIView])
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class AdmostAdServerSDK : ObjectiveC.NSObject {
+  @objc public static let shared: AdmostAdServer.AdmostAdServerSDK
+  @objc public static let sdkVersion: Swift.String
+  @objc public static var isInitialized: Swift.Bool {
+    @objc get
+  }
+  @objc public static func start(completion: @escaping (_ error: Swift.Error?) -> Swift.Void)
+  @objc public static func setLogLevel(_ logLevel: AdmostAdServer.LogLevel)
+  @objc public static func setEncryptedIDFA(_ encryptedIDFA: Swift.String)
+  @objc public static func setAdmostUserId(_ admostUserId: Swift.String)
+  @objc public static func setAdmostAppId(_ admostAppId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum LogLevel : Swift.Int {
+  case none = 0
+  case error = 1
+  case info = 2
+  case debug = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension AdmostAdServer.AdStatus : Swift.Equatable {}
+extension AdmostAdServer.AdStatus : Swift.Hashable {}
+extension AdmostAdServer.AdStatus : Swift.RawRepresentable {}
+extension AdmostAdServer.BaseAd.Status : Swift.Equatable {}
+extension AdmostAdServer.BaseAd.Status : Swift.Hashable {}
+extension AdmostAdServer.BaseAd.Status : Swift.RawRepresentable {}
+extension AdmostAdServer.AASBannerSize : Swift.Equatable {}
+extension AdmostAdServer.AASBannerSize : Swift.Hashable {}
+extension AdmostAdServer.AASBannerSize : Swift.RawRepresentable {}
+extension AdmostAdServer.LogLevel : Swift.Equatable {}
+extension AdmostAdServer.LogLevel : Swift.Hashable {}
+extension AdmostAdServer.LogLevel : Swift.RawRepresentable {}
