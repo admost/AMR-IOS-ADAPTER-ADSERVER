@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform      = :ios
   s.ios.deployment_target = '10.0'
+  s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterAdserver/Libs/AMRAdapterAdserver.xcframework', 'AMRAdapterAdserver/Libs/AdmostAdServer.xcframework'
   s.resources = ['AMRAdapterAdserver/Resources/AdmostAdServerResources.bundle']
   s.pod_target_xcconfig = { 
