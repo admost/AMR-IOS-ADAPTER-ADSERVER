@@ -1,0 +1,2 @@
+# AMR-IOS-ADAPTER-ADSERVER
+AdServer iOS Adapter
