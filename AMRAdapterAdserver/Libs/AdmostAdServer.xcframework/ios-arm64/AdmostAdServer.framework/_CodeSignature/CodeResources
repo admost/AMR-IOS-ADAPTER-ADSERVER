@@ -4,25 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		IIEeRbLudulXqUCqzepLo95zH0k=
-		</data>
 		<key>Headers/AdmostAdServer-Swift.h</key>
 		<data>
 		Xc8I57y4wPXw00pAKDepeidCIsY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4KiV/XcFO/1Q0JJSMAWHTm9jFgM=
+		y+emzCHicY8y+m638rbI8DSsv+4=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8mD8Zh6isBXQfsZkPkr7P1V7Z28=
+		D+koE5ueoOF5b2AxSQg8UuTxaco=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tZup57ngExiWA4ZPVPpngd0uoAc=
+		6lBqikTonTTSsuOZVFGTqTKhh2o=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +34,7 @@
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		erSSiGbGzMNI7aBCfHfINckcXcU=
+		bZEIoB/jDp3QJHljM9ZI+iq/+2Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,14 +54,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j7Fj5D97nYYH2fLiwiRTbN6Eijw03ivmNohiYOqojVY=
+			+v72mFtEXvwM0k8b1h53Bh192QdyfSL8egrbZBCUfx8=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WVgaotY6HgG/1W5WpOxnGDMVrXa2MBibrU3GWcjUEVQ=
+			rx3DbwNvXnHc+rf1794KPUoQ8FnFedik8QB8XEEieKE=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JL7HeDz7QpbifcnEx1bHUEIbgHVP/Pi+nuJ0J1Sn7b4=
+			iDO++DitSLnlnbpnALnJTrcJzlCTuNBJNYM/JIHDUtI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

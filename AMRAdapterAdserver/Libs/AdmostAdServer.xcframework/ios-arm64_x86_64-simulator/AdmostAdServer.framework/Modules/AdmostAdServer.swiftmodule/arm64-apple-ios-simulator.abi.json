@@ -9087,6 +9087,44 @@
           },
           {
             "kind": "Var",
+            "name": "parseError",
+            "printedName": "parseError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdmostAdServer.CustomError.Type) -> AdmostAdServer.CustomError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomError",
+                    "printedName": "AdmostAdServer.CustomError",
+                    "usr": "s:14AdmostAdServer11CustomErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdmostAdServer.CustomError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomError",
+                        "printedName": "AdmostAdServer.CustomError",
+                        "usr": "s:14AdmostAdServer11CustomErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AdmostAdServer11CustomErrorO05parseE0yA2CmF",
+            "mangledName": "$s14AdmostAdServer11CustomErrorO05parseE0yA2CmF",
+            "moduleName": "AdmostAdServer",
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
             "name": "error",
             "printedName": "error",
             "children": [
@@ -34277,58 +34315,9 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 169,
+      "offset": 417,
       "length": 5,
-      "value": "10001"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 5,
-      "value": "10002"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 238,
-      "length": 5,
-      "value": "10003"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 262,
-      "length": 5,
-      "value": "10004"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 291,
-      "length": 5,
-      "value": "10005"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 5,
-      "value": "10006"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 5,
-      "value": "10007"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 5,
-      "value": "10008"
+      "value": "10009"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
@@ -34385,6 +34374,76 @@
       "offset": 389,
       "length": 5,
       "value": "10008"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 5,
+      "value": "10009"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 5,
+      "value": "10001"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "10002"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "10003"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 5,
+      "value": "10004"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "10005"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "10006"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "10007"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "10008"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 5,
+      "value": "10009"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
@@ -34678,7 +34737,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
