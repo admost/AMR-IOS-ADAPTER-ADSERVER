@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver. 
 
+## [1.1.2.0] - 2023-05-09
+### Updated
+- ReportManager crash fixed.
+
 ## [1.1.1.0] - 2023-03-21
 ### Updated
 - Critical bug fix.

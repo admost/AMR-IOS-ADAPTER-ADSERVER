@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdmostAdServer
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -20,7 +20,7 @@ import _StringProcessing
   @objc optional func interstitialDidClick(_ interstitial: AdmostAdServer.AASInterstitial)
 }
 @objc public class AASInterstitial : AdmostAdServer.BaseAd {
-  @objc weak public var delegate: AdmostAdServer.AASInterstitialDelegate?
+  @objc weak public var delegate: (any AdmostAdServer.AASInterstitialDelegate)?
   @objc public var zoneId: Swift.String {
     get
   }
@@ -74,7 +74,7 @@ import _StringProcessing
   }
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class AASBannerView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: AdmostAdServer.AASBannerViewDelegate?
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any AdmostAdServer.AASBannerViewDelegate)?
   @objc @_Concurrency.MainActor(unsafe) public var customData: [Swift.String : Any]?
   @objc @_Concurrency.MainActor(unsafe) public var zoneId: Swift.String {
     get
@@ -96,7 +96,7 @@ import _StringProcessing
   @objc optional func rewardedDidClick(_ rewarded: AdmostAdServer.AASRewarded)
 }
 @objc public class AASRewarded : AdmostAdServer.BaseAd {
-  @objc weak public var delegate: AdmostAdServer.AASRewardedDelegate?
+  @objc weak public var delegate: (any AdmostAdServer.AASRewardedDelegate)?
   @objc public var zoneId: Swift.String {
     get
   }
@@ -114,7 +114,7 @@ import _StringProcessing
   @objc optional func nativeAdDidClick(_ nativeAd: AdmostAdServer.AASNativeAd)
 }
 @objc public class AASNativeAd : ObjectiveC.NSObject {
-  @objc weak public var delegate: AdmostAdServer.AASNativeAdDelegate?
+  @objc weak public var delegate: (any AdmostAdServer.AASNativeAdDelegate)?
   @objc public var customData: [Swift.String : Any]?
   @objc public var zoneId: Swift.String {
     get
@@ -152,7 +152,7 @@ import _StringProcessing
   @objc public static var isInitialized: Swift.Bool {
     @objc get
   }
-  @objc public static func start(completion: @escaping (_ error: Swift.Error?) -> Swift.Void)
+  @objc public static func start(completion: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
   @objc public static func setLogLevel(_ logLevel: AdmostAdServer.LogLevel)
   @objc public static func setEncryptedIDFA(_ encryptedIDFA: Swift.String)
   @objc public static func setAdmostUserId(_ admostUserId: Swift.String)
