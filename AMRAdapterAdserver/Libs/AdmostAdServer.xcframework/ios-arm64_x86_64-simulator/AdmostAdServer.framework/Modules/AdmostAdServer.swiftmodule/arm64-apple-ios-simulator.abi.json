@@ -7008,6 +7008,33 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShow",
+            "printedName": "didShow(mediaView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediaView",
+                "printedName": "AdmostAdServer.MediaView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)MediaView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AdmostAdServer17MediaViewDelegateP7didShow05mediaE0yAA0dE0C_tF",
+            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP7didShow05mediaE0yAA0dE0C_tF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.MediaViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.MediaViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -7478,6 +7505,33 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "isMovedToWindow",
+            "printedName": "isMovedToWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AdmostAdServer9MediaViewC15isMovedToWindow33_EC9A81974B48E14B26D19FABE463729BLLSbvp",
+            "mangledName": "$s14AdmostAdServer9MediaViewC15isMovedToWindow33_EC9A81974B48E14B26D19FABE463729BLLSbvp",
+            "moduleName": "AdmostAdServer",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(media:isMuted:)",
@@ -7550,6 +7604,31 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)MediaView(im)didMoveToWindow",
+            "mangledName": "$s14AdmostAdServer9MediaViewC15didMoveToWindowyyF",
+            "moduleName": "AdmostAdServer",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -10012,8 +10091,8 @@
           },
           {
             "kind": "Function",
-            "name": "didImpression",
-            "printedName": "didImpression(mediaView:)",
+            "name": "didShow",
+            "printedName": "didShow(mediaView:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10028,8 +10107,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14AdmostAdServer15MediaBannerViewC13didImpression05mediaF0yAA0dF0C_tF",
-            "mangledName": "$s14AdmostAdServer15MediaBannerViewC13didImpression05mediaF0yAA0dF0C_tF",
+            "usr": "s:14AdmostAdServer15MediaBannerViewC7didShow05mediaF0yAA0dF0C_tF",
+            "mangledName": "$s14AdmostAdServer15MediaBannerViewC7didShow05mediaF0yAA0dF0C_tF",
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
@@ -17287,6 +17366,37 @@
           },
           {
             "kind": "Function",
+            "name": "nativeAdDidShow",
+            "printedName": "nativeAdDidShow(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASNativeAd",
+                "printedName": "AdmostAdServer.AASNativeAd",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASNativeAdDelegate(im)nativeAdDidShow:",
+            "mangledName": "$s14AdmostAdServer09AASNativeB8DelegateP06nativeB7DidShowyyAA0dB0CF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "nativeAdDidClick",
             "printedName": "nativeAdDidClick(_:)",
             "children": [
@@ -18368,6 +18478,31 @@
             "declKind": "Func",
             "usr": "s:14AdmostAdServer09AASNativeB0C12failedToLoad9mediaView5erroryAA05MediaI0C_s5Error_ptF",
             "mangledName": "$s14AdmostAdServer09AASNativeB0C12failedToLoad9mediaView5erroryAA05MediaI0C_s5Error_ptF",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShow",
+            "printedName": "didShow(mediaView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediaView",
+                "printedName": "AdmostAdServer.MediaView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)MediaView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AdmostAdServer09AASNativeB0C7didShow9mediaViewyAA05MediaH0C_tF",
+            "mangledName": "$s14AdmostAdServer09AASNativeB0C7didShow9mediaViewyAA05MediaH0C_tF",
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "isFromExtension": true,
@@ -22768,6 +22903,34 @@
             "declKind": "Func",
             "usr": "s:14AdmostAdServer0B4ViewC11closeTapped05mediaD0yAA05MediaD0C_tF",
             "mangledName": "$s14AdmostAdServer0B4ViewC11closeTapped05mediaD0yAA05MediaD0C_tF",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShow",
+            "printedName": "didShow(mediaView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediaView",
+                "printedName": "AdmostAdServer.MediaView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)MediaView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AdmostAdServer0B4ViewC7didShow05mediaD0yAA05MediaD0C_tF",
+            "mangledName": "$s14AdmostAdServer0B4ViewC7didShow05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Custom",
@@ -34230,8 +34393,15 @@
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 887,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 445,
       "length": 9,
       "value": "\"AdmostAdServer.MediaView\""
     },
@@ -34679,7 +34849,7 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 400,
+      "offset": 465,
       "length": 11,
       "value": "\"AdmostAdServer.AASNativeAd\""
     },
@@ -34737,7 +34907,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.2\""
+      "value": "\"1.1.3\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdmostAdServer
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -111,6 +111,7 @@ import _StringProcessing
 @objc public protocol AASNativeAdDelegate {
   @objc optional func nativeAdDidReceive(_ nativeAd: AdmostAdServer.AASNativeAd)
   @objc optional func nativeAdDidFailToReceive(_ nativeAd: AdmostAdServer.AASNativeAd, error: Foundation.NSError)
+  @objc optional func nativeAdDidShow(_ nativeAd: AdmostAdServer.AASNativeAd)
   @objc optional func nativeAdDidClick(_ nativeAd: AdmostAdServer.AASNativeAd)
 }
 @objc public class AASNativeAd : ObjectiveC.NSObject {
