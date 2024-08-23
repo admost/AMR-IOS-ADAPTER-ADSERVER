@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver. 
 
+## [1.1.5.0] - 2024-08-23
+### Updated
+- minor bug fixed.
+
 ## [1.1.4.0] - 2023-07-28
 ### Updated
 - DidShow event added to Native ads.

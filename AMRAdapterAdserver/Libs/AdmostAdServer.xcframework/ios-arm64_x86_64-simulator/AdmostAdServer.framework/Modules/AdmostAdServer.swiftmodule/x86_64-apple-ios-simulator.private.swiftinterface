@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdmostAdServer
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name AdmostAdServer
 import AVKit
 import CoreTelephony
 import Foundation
@@ -11,6 +10,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc public protocol AASInterstitialDelegate {
   @objc optional func interstitialDidReceive(_ interstitial: AdmostAdServer.AASInterstitial)
   @objc optional func interstitialDidFailToReceive(_ interstitial: AdmostAdServer.AASInterstitial, error: Foundation.NSError)
@@ -25,6 +25,9 @@ import _StringProcessing
     get
   }
   @objc public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc public var adId: Swift.String? {
     get
   }
   @objc public init(zoneId: Swift.String)
@@ -82,6 +85,9 @@ import _StringProcessing
   @objc @_Concurrency.MainActor(unsafe) public var status: AdmostAdServer.AdStatus {
     get
   }
+  @objc @_Concurrency.MainActor(unsafe) public var adId: Swift.String? {
+    get
+  }
   @objc @_Concurrency.MainActor(unsafe) public init(zoneId: Swift.String, size: AdmostAdServer.AASBannerSize)
   @objc @_Concurrency.MainActor(unsafe) public func load()
   @objc deinit
@@ -103,6 +109,9 @@ import _StringProcessing
   @objc public var status: AdmostAdServer.AdStatus {
     get
   }
+  @objc public var adId: Swift.String? {
+    get
+  }
   @objc public init(zoneId: Swift.String)
   @objc public func load()
   @objc public func show(_ fromVC: UIKit.UIViewController)
@@ -118,6 +127,9 @@ import _StringProcessing
   @objc weak public var delegate: (any AdmostAdServer.AASNativeAdDelegate)?
   @objc public var customData: [Swift.String : Any]?
   @objc public var zoneId: Swift.String {
+    get
+  }
+  @objc public var adId: Swift.String? {
     get
   }
   @objc public var status: AdmostAdServer.AdStatus {

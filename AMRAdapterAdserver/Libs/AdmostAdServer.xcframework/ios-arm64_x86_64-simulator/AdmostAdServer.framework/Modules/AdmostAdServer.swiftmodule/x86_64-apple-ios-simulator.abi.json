@@ -2126,7 +2126,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2150,7 +2150,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3667,6 +3667,125 @@
           },
           {
             "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AdmostAdServer0B0V4adIdSSSgvp",
+            "mangledName": "$s14AdmostAdServer0B0V4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V4adIdSSSgvg",
+                "mangledName": "$s14AdmostAdServer0B0V4adIdSSSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V4adIdSSSgvs",
+                "mangledName": "$s14AdmostAdServer0B0V4adIdSSSgvs",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V4adIdSSSgvM",
+                "mangledName": "$s14AdmostAdServer0B0V4adIdSSSgvM",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "title",
             "printedName": "title",
             "children": [
@@ -3693,7 +3812,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -3812,7 +3931,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -3931,7 +4050,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true,
             "accessors": [
               {
@@ -4041,7 +4160,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -4135,7 +4254,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true,
             "accessors": [
               {
@@ -4229,7 +4348,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "hasStorage": true,
             "accessors": [
               {
@@ -4332,7 +4451,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "hasStorage": true,
             "accessors": [
               {
@@ -4451,7 +4570,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true,
             "accessors": [
               {
@@ -4561,7 +4680,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "hasStorage": true,
             "accessors": [
               {
@@ -5023,6 +5142,44 @@
               },
               {
                 "kind": "Var",
+                "name": "adId",
+                "printedName": "adId",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdmostAdServer.Ad.CodingKeys.Type) -> AdmostAdServer.Ad.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AdmostAdServer.Ad.CodingKeys",
+                        "usr": "s:14AdmostAdServer0B0V10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AdmostAdServer.Ad.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AdmostAdServer.Ad.CodingKeys",
+                            "usr": "s:14AdmostAdServer0B0V10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14AdmostAdServer0B0V10CodingKeysO4adIdyA2EmF",
+                "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO4adIdyA2EmF",
+                "moduleName": "AdmostAdServer",
+                "fixedbinaryorder": 10
+              },
+              {
+                "kind": "Var",
                 "name": "title",
                 "printedName": "title",
                 "children": [
@@ -5057,7 +5214,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO5titleyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO5titleyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 10
+                "fixedbinaryorder": 11
               },
               {
                 "kind": "Var",
@@ -5095,7 +5252,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO4descyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO4descyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 11
+                "fixedbinaryorder": 12
               },
               {
                 "kind": "Var",
@@ -5133,7 +5290,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO7iconURLyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO7iconURLyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 12
+                "fixedbinaryorder": 13
               },
               {
                 "kind": "Var",
@@ -5171,7 +5328,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO11skippableAtyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO11skippableAtyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 13
+                "fixedbinaryorder": 14
               },
               {
                 "kind": "Var",
@@ -5209,7 +5366,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO17rvEndCardImageURLyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO17rvEndCardImageURLyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 14
+                "fixedbinaryorder": 15
               },
               {
                 "kind": "Var",
@@ -5247,7 +5404,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO18mediaButtonEnabledyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO18mediaButtonEnabledyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 15
+                "fixedbinaryorder": 16
               },
               {
                 "kind": "Var",
@@ -5285,7 +5442,7 @@
                 "usr": "s:14AdmostAdServer0B0V10CodingKeysO5styleyA2EmF",
                 "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO5styleyA2EmF",
                 "moduleName": "AdmostAdServer",
-                "fixedbinaryorder": 16
+                "fixedbinaryorder": 17
               },
               {
                 "kind": "Constructor",
@@ -5607,7 +5764,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5631,7 +5788,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6248,7 +6405,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AASInterstitialDelegate?"
+                "printedName": "(any AdmostAdServer.AASInterstitialDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -6274,12 +6431,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASInterstitialDelegate?",
+                    "printedName": "(any AdmostAdServer.AASInterstitialDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASInterstitialDelegate",
-                        "printedName": "AdmostAdServer.AASInterstitialDelegate",
+                        "printedName": "any AdmostAdServer.AASInterstitialDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASInterstitialDelegate"
                       }
                     ],
@@ -6310,12 +6467,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASInterstitialDelegate?",
+                    "printedName": "(any AdmostAdServer.AASInterstitialDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASInterstitialDelegate",
-                        "printedName": "AdmostAdServer.AASInterstitialDelegate",
+                        "printedName": "any AdmostAdServer.AASInterstitialDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASInterstitialDelegate"
                       }
                     ],
@@ -6445,6 +6602,73 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(im)status",
                 "mangledName": "$s14AdmostAdServer15AASInterstitialC6statusAA0B6StatusOvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(py)adId",
+            "mangledName": "$s14AdmostAdServer15AASInterstitialC4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(im)adId",
+                "mangledName": "$s14AdmostAdServer15AASInterstitialC4adIdSSSgvg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -6612,7 +6836,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -6914,7 +7138,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7057,7 +7281,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.MediaViewDelegate?"
+                "printedName": "(any AdmostAdServer.MediaViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -7065,10 +7289,10 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -7083,12 +7307,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.MediaViewDelegate?",
+                    "printedName": "(any AdmostAdServer.MediaViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MediaViewDelegate",
-                        "printedName": "AdmostAdServer.MediaViewDelegate",
+                        "printedName": "any AdmostAdServer.MediaViewDelegate",
                         "usr": "s:14AdmostAdServer17MediaViewDelegateP"
                       }
                     ],
@@ -7118,12 +7342,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.MediaViewDelegate?",
+                    "printedName": "(any AdmostAdServer.MediaViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MediaViewDelegate",
-                        "printedName": "AdmostAdServer.MediaViewDelegate",
+                        "printedName": "any AdmostAdServer.MediaViewDelegate",
                         "usr": "s:14AdmostAdServer17MediaViewDelegateP"
                       }
                     ],
@@ -7180,9 +7404,9 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC5mediaAA0D0Vvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -7277,8 +7501,8 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -7372,8 +7596,8 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC13videoDurationSivp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
-              "Final"
+              "Final",
+              "Custom"
             ],
             "accessors": [
               {
@@ -7425,10 +7649,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -7495,10 +7719,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -7522,10 +7746,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -7947,6 +8171,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -8036,9 +8267,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 0,
@@ -8061,10 +8292,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -8098,10 +8329,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -8126,8 +8357,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "IBInspectable",
               "ObjC"
             ],
@@ -8227,8 +8458,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -8324,8 +8555,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "IBInspectable",
               "ObjC"
             ],
@@ -8425,8 +8656,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "IBInspectable",
               "ObjC"
             ],
@@ -8515,7 +8746,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.ArcViewDelegate?"
+                "printedName": "(any AdmostAdServer.ArcViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -8523,10 +8754,10 @@
             "mangledName": "$s14AdmostAdServer7ArcViewC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 7,
@@ -8541,12 +8772,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.ArcViewDelegate?",
+                    "printedName": "(any AdmostAdServer.ArcViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ArcViewDelegate",
-                        "printedName": "AdmostAdServer.ArcViewDelegate",
+                        "printedName": "any AdmostAdServer.ArcViewDelegate",
                         "usr": "s:14AdmostAdServer15ArcViewDelegateP"
                       }
                     ],
@@ -8576,12 +8807,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.ArcViewDelegate?",
+                    "printedName": "(any AdmostAdServer.ArcViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ArcViewDelegate",
-                        "printedName": "AdmostAdServer.ArcViewDelegate",
+                        "printedName": "any AdmostAdServer.ArcViewDelegate",
                         "usr": "s:14AdmostAdServer15ArcViewDelegateP"
                       }
                     ],
@@ -8828,6 +9059,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -9210,7 +9448,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -9227,7 +9465,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -9417,8 +9655,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -9533,8 +9771,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -9657,9 +9895,9 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -9962,7 +10200,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -10194,6 +10432,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -10275,7 +10520,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -10613,7 +10858,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AdLoaderDelegate?"
+                "printedName": "(any AdmostAdServer.AdLoaderDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -10638,12 +10883,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AdLoaderDelegate?",
+                    "printedName": "(any AdmostAdServer.AdLoaderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdLoaderDelegate",
-                        "printedName": "AdmostAdServer.AdLoaderDelegate",
+                        "printedName": "any AdmostAdServer.AdLoaderDelegate",
                         "usr": "s:14AdmostAdServer0B14LoaderDelegateP"
                       }
                     ],
@@ -10674,12 +10919,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AdLoaderDelegate?",
+                    "printedName": "(any AdmostAdServer.AdLoaderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdLoaderDelegate",
-                        "printedName": "AdmostAdServer.AdLoaderDelegate",
+                        "printedName": "any AdmostAdServer.AdLoaderDelegate",
                         "usr": "s:14AdmostAdServer0B14LoaderDelegateP"
                       }
                     ],
@@ -11471,7 +11716,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11481,12 +11726,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -11613,8 +11858,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -11731,8 +11976,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -11849,8 +12094,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -11967,8 +12212,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12085,8 +12330,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12203,8 +12448,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12321,8 +12566,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12439,8 +12684,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12547,7 +12792,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.EndCardViewDelegate?"
+                "printedName": "(any AdmostAdServer.EndCardViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -12555,10 +12800,10 @@
             "mangledName": "$s14AdmostAdServer11EndCardViewC8delegateAA0deF8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 8,
@@ -12573,12 +12818,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.EndCardViewDelegate?",
+                    "printedName": "(any AdmostAdServer.EndCardViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "EndCardViewDelegate",
-                        "printedName": "AdmostAdServer.EndCardViewDelegate",
+                        "printedName": "any AdmostAdServer.EndCardViewDelegate",
                         "usr": "s:14AdmostAdServer19EndCardViewDelegateP"
                       }
                     ],
@@ -12608,12 +12853,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.EndCardViewDelegate?",
+                    "printedName": "(any AdmostAdServer.EndCardViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "EndCardViewDelegate",
-                        "printedName": "AdmostAdServer.EndCardViewDelegate",
+                        "printedName": "any AdmostAdServer.EndCardViewDelegate",
                         "usr": "s:14AdmostAdServer19EndCardViewDelegateP"
                       }
                     ],
@@ -12671,9 +12916,9 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -12705,10 +12950,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -12740,10 +12985,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -13024,6 +13269,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -14329,7 +14581,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AASBannerViewDelegate?"
+                "printedName": "(any AdmostAdServer.AASBannerViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -14339,8 +14591,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC"
@@ -14356,12 +14608,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASBannerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.AASBannerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASBannerViewDelegate",
-                        "printedName": "AdmostAdServer.AASBannerViewDelegate",
+                        "printedName": "any AdmostAdServer.AASBannerViewDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASBannerViewDelegate"
                       }
                     ],
@@ -14392,12 +14644,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASBannerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.AASBannerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASBannerViewDelegate",
-                        "printedName": "AdmostAdServer.AASBannerViewDelegate",
+                        "printedName": "any AdmostAdServer.AASBannerViewDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASBannerViewDelegate"
                       }
                     ],
@@ -14476,8 +14728,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -14615,8 +14867,8 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -14667,8 +14919,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -14690,6 +14942,74 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASBannerView(im)status",
                 "mangledName": "$s14AdmostAdServer13AASBannerViewC6statusAA0B6StatusOvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASBannerView(py)adId",
+            "mangledName": "$s14AdmostAdServer13AASBannerViewC4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASBannerView(im)adId",
+                "mangledName": "$s14AdmostAdServer13AASBannerViewC4adIdSSSgvg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -14887,7 +15207,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -14949,7 +15269,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -15129,6 +15449,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -16273,7 +16600,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -16298,7 +16625,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16683,7 +17010,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AASRewardedDelegate?"
+                "printedName": "(any AdmostAdServer.AASRewardedDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -16709,12 +17036,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASRewardedDelegate?",
+                    "printedName": "(any AdmostAdServer.AASRewardedDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASRewardedDelegate",
-                        "printedName": "AdmostAdServer.AASRewardedDelegate",
+                        "printedName": "any AdmostAdServer.AASRewardedDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASRewardedDelegate"
                       }
                     ],
@@ -16745,12 +17072,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASRewardedDelegate?",
+                    "printedName": "(any AdmostAdServer.AASRewardedDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASRewardedDelegate",
-                        "printedName": "AdmostAdServer.AASRewardedDelegate",
+                        "printedName": "any AdmostAdServer.AASRewardedDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASRewardedDelegate"
                       }
                     ],
@@ -16880,6 +17207,73 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)status",
                 "mangledName": "$s14AdmostAdServer11AASRewardedC6statusAA0B6StatusOvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(py)adId",
+            "mangledName": "$s14AdmostAdServer11AASRewardedC4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)adId",
+                "mangledName": "$s14AdmostAdServer11AASRewardedC4adIdSSSgvg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -17047,7 +17441,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -17451,7 +17845,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AASNativeAdDelegate?"
+                "printedName": "(any AdmostAdServer.AASNativeAdDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -17477,12 +17871,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASNativeAdDelegate?",
+                    "printedName": "(any AdmostAdServer.AASNativeAdDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASNativeAdDelegate",
-                        "printedName": "AdmostAdServer.AASNativeAdDelegate",
+                        "printedName": "any AdmostAdServer.AASNativeAdDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASNativeAdDelegate"
                       }
                     ],
@@ -17513,12 +17907,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AASNativeAdDelegate?",
+                    "printedName": "(any AdmostAdServer.AASNativeAdDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AASNativeAdDelegate",
-                        "printedName": "AdmostAdServer.AASNativeAdDelegate",
+                        "printedName": "any AdmostAdServer.AASNativeAdDelegate",
                         "usr": "c:@M@AdmostAdServer@objc(pl)AASNativeAdDelegate"
                       }
                     ],
@@ -17757,6 +18151,73 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(im)zoneId",
                 "mangledName": "$s14AdmostAdServer09AASNativeB0C6zoneIdSSvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(py)adId",
+            "mangledName": "$s14AdmostAdServer09AASNativeB0C4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(im)adId",
+                "mangledName": "$s14AdmostAdServer09AASNativeB0C4adIdSSSgvg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -18415,7 +18876,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -18471,7 +18932,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -18884,9 +19345,9 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC2adAA0B0Vvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -18988,10 +19449,10 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC6adViewAA0bG0CSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -19109,10 +19570,10 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC11endCardViewAA03EndgH0CSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -19213,7 +19674,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.FullscreenAdVCDelegate?"
+                "printedName": "(any AdmostAdServer.FullscreenAdVCDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -19221,10 +19682,10 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC8delegateAA0dB10VCDelegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 3,
@@ -19239,12 +19700,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.FullscreenAdVCDelegate?",
+                    "printedName": "(any AdmostAdServer.FullscreenAdVCDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FullscreenAdVCDelegate",
-                        "printedName": "AdmostAdServer.FullscreenAdVCDelegate",
+                        "printedName": "any AdmostAdServer.FullscreenAdVCDelegate",
                         "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP"
                       }
                     ],
@@ -19274,12 +19735,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.FullscreenAdVCDelegate?",
+                    "printedName": "(any AdmostAdServer.FullscreenAdVCDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FullscreenAdVCDelegate",
-                        "printedName": "AdmostAdServer.FullscreenAdVCDelegate",
+                        "printedName": "any AdmostAdServer.FullscreenAdVCDelegate",
                         "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP"
                       }
                     ],
@@ -19428,7 +19889,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -19438,12 +19899,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -19585,7 +20046,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -19882,6 +20343,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -20610,8 +21078,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -20728,8 +21196,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -20972,6 +21440,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -21668,7 +22143,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -21838,7 +22313,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.AdViewDelegate?"
+                "printedName": "(any AdmostAdServer.AdViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -21846,10 +22321,10 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC8delegateAA0bD8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -21864,12 +22339,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AdViewDelegate?",
+                    "printedName": "(any AdmostAdServer.AdViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdViewDelegate",
-                        "printedName": "AdmostAdServer.AdViewDelegate",
+                        "printedName": "any AdmostAdServer.AdViewDelegate",
                         "usr": "s:14AdmostAdServer0B12ViewDelegateP"
                       }
                     ],
@@ -21899,12 +22374,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.AdViewDelegate?",
+                    "printedName": "(any AdmostAdServer.AdViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdViewDelegate",
-                        "printedName": "AdmostAdServer.AdViewDelegate",
+                        "printedName": "any AdmostAdServer.AdViewDelegate",
                         "usr": "s:14AdmostAdServer0B12ViewDelegateP"
                       }
                     ],
@@ -21962,9 +22437,9 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -21996,10 +22471,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -22031,10 +22506,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -22066,10 +22541,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -22101,10 +22576,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -22136,10 +22611,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -22171,10 +22646,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -22206,10 +22681,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -22240,10 +22715,10 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC11buttonTimerSo7NSTimerCSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 9,
             "hasStorage": true,
@@ -22784,7 +23259,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -23049,6 +23524,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -23096,8 +23578,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23214,8 +23696,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23332,8 +23814,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23450,8 +23932,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23568,8 +24050,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23686,8 +24168,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23804,8 +24286,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -24074,6 +24556,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -24270,7 +24759,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24280,12 +24769,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -26569,7 +27058,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.VideoPlayerViewDelegate?"
+                "printedName": "(any AdmostAdServer.VideoPlayerViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -26577,10 +27066,10 @@
             "mangledName": "$s14AdmostAdServer15VideoPlayerViewC8delegateAA0deF8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -26595,12 +27084,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.VideoPlayerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.VideoPlayerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VideoPlayerViewDelegate",
-                        "printedName": "AdmostAdServer.VideoPlayerViewDelegate",
+                        "printedName": "any AdmostAdServer.VideoPlayerViewDelegate",
                         "usr": "s:14AdmostAdServer23VideoPlayerViewDelegateP"
                       }
                     ],
@@ -26630,12 +27119,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.VideoPlayerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.VideoPlayerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VideoPlayerViewDelegate",
-                        "printedName": "AdmostAdServer.VideoPlayerViewDelegate",
+                        "printedName": "any AdmostAdServer.VideoPlayerViewDelegate",
                         "usr": "s:14AdmostAdServer23VideoPlayerViewDelegateP"
                       }
                     ],
@@ -26788,8 +27277,8 @@
             "mangledName": "$s14AdmostAdServer15VideoPlayerViewC13videoDurationSivp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "Lazy"
             ],
             "accessors": [
@@ -26892,9 +27381,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 2,
@@ -26996,10 +27485,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -27023,10 +27512,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -27050,10 +27539,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -27474,6 +27963,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -27641,7 +28137,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.WebViewDelegate?"
+                "printedName": "(any AdmostAdServer.WebViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -27649,10 +28145,10 @@
             "mangledName": "$s14AdmostAdServer7WebViewC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -27667,12 +28163,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.WebViewDelegate?",
+                    "printedName": "(any AdmostAdServer.WebViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebViewDelegate",
-                        "printedName": "AdmostAdServer.WebViewDelegate",
+                        "printedName": "any AdmostAdServer.WebViewDelegate",
                         "usr": "s:14AdmostAdServer15WebViewDelegateP"
                       }
                     ],
@@ -27702,12 +28198,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.WebViewDelegate?",
+                    "printedName": "(any AdmostAdServer.WebViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebViewDelegate",
-                        "printedName": "AdmostAdServer.WebViewDelegate",
+                        "printedName": "any AdmostAdServer.WebViewDelegate",
                         "usr": "s:14AdmostAdServer15WebViewDelegateP"
                       }
                     ],
@@ -27773,10 +28269,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -27808,10 +28304,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -27835,10 +28331,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -27878,10 +28374,10 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -28075,12 +28571,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Any?, Swift.Error?) -> ())?",
+                "printedName": "((Any?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Any?, Swift.Error?) -> ()",
+                    "printedName": "(Any?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -28090,7 +28586,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Any?, Swift.Error?)",
+                        "printedName": "(Any?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -28108,12 +28604,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -28133,8 +28629,8 @@
             "mangledName": "$s14AdmostAdServer7WebViewC18evaluateJavaScript_17completionHandlerySS_yypSg_s5Error_pSgtcSgtF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
-              "Custom",
-              "Final"
+              "Final",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -28416,7 +28912,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -28466,7 +28962,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -28755,6 +29251,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -28816,7 +29319,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<AdmostAdServer.Ad, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<AdmostAdServer.Ad, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -28826,7 +29329,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<AdmostAdServer.Ad, Swift.Error>",
+                    "printedName": "Swift.Result<AdmostAdServer.Ad, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -28837,7 +29340,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -28875,7 +29378,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool?, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Swift.Bool?, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -28885,7 +29388,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool?, Swift.Error>",
+                    "printedName": "Swift.Result<Swift.Bool?, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -28904,7 +29407,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -29015,7 +29518,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -29363,7 +29866,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AdmostAdServer.BannerViewDelegate?"
+                "printedName": "(any AdmostAdServer.BannerViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -29372,9 +29875,9 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 2,
@@ -29389,12 +29892,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.BannerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.BannerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BannerViewDelegate",
-                        "printedName": "AdmostAdServer.BannerViewDelegate",
+                        "printedName": "any AdmostAdServer.BannerViewDelegate",
                         "usr": "s:14AdmostAdServer18BannerViewDelegateP"
                       }
                     ],
@@ -29422,12 +29925,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdmostAdServer.BannerViewDelegate?",
+                    "printedName": "(any AdmostAdServer.BannerViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BannerViewDelegate",
-                        "printedName": "AdmostAdServer.BannerViewDelegate",
+                        "printedName": "any AdmostAdServer.BannerViewDelegate",
                         "usr": "s:14AdmostAdServer18BannerViewDelegateP"
                       }
                     ],
@@ -29481,8 +29984,8 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -29571,9 +30074,9 @@
             "moduleName": "AdmostAdServer",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -29905,6 +30408,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -30955,6 +31465,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -31477,6 +31988,41 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -31503,10 +32049,10 @@
             "moduleName": "AdmostAdServer",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isFromExtension": true,
             "isLet": true,
@@ -31556,8 +32102,8 @@
             "moduleName": "AdmostAdServer",
             "static": true,
             "declAttributes": [
-              "Custom",
-              "Final"
+              "Final",
+              "Custom"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -31757,6 +32303,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -32242,7 +32795,9 @@
         "objc_name": "NSBundle",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
           "NonSendable",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -32252,6 +32807,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -32477,6 +33039,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -32781,36 +33350,31 @@
         "usr": "s:10Foundation4DateV",
         "mangledName": "$s10Foundation4DateV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSDate",
-                    "printedName": "Foundation.NSDate",
-                    "usr": "c:objc(cs)NSDate"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
           {
             "kind": "Conformance",
             "name": "Comparable",
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -32825,35 +33389,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
           },
           {
             "kind": "Conformance",
@@ -32875,6 +33410,42 @@
             "printedName": "CustomReflectable",
             "usr": "s:s17CustomReflectableP",
             "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDate",
+                    "printedName": "Foundation.NSDate",
+                    "usr": "c:objc(cs)NSDate"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -32907,17 +33478,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
           }
         ]
       },
@@ -33883,6 +34462,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -34149,238 +34735,252 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 4879,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4888,
+      "offset": 4910,
       "length": 10,
       "value": "\"template\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 4942,
       "length": 7,
       "value": "\"media\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 4976,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4989,
+      "offset": 5011,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 5043,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5060,
+      "offset": 5082,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5108,
+      "offset": 5130,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5150,
+      "offset": 5172,
       "length": 7,
       "value": "\"muted\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 5204,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5214,
+      "offset": 5235,
+      "length": 6,
+      "value": "\"adID\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "kind": "StringLiteral",
+      "offset": 5263,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5291,
       "length": 6,
       "value": "\"desc\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5321,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5309,
+      "offset": 5358,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 5405,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5410,
+      "offset": 5459,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5452,
+      "offset": 5501,
       "length": 7,
       "value": "\"style\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 4879,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4888,
+      "offset": 4910,
       "length": 10,
       "value": "\"template\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 4942,
       "length": 7,
       "value": "\"media\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 4976,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4989,
+      "offset": 5011,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 5043,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5060,
+      "offset": 5082,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5108,
+      "offset": 5130,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5150,
+      "offset": 5172,
       "length": 7,
       "value": "\"muted\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 5204,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5214,
+      "offset": 5235,
+      "length": 6,
+      "value": "\"adID\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "kind": "StringLiteral",
+      "offset": 5263,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5291,
       "length": 6,
       "value": "\"desc\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5321,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5309,
+      "offset": 5358,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 5405,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5410,
+      "offset": 5459,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5452,
+      "offset": 5501,
       "length": 7,
       "value": "\"style\""
     },
@@ -34907,7 +35507,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.4\""
+      "value": "\"1.1.5\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
