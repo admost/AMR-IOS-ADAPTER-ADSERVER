@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAdserver'
-  s.version          = '1.1.5.0'
+  s.version          = '1.1.5.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
