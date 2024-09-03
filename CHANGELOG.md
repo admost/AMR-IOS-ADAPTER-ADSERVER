@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver. 
 
+## [1.1.5.2] - 2024-09-02
+### Updated
+- minor bug fixed.
+
 ## [1.1.5.1] - 2024-08-28
 ### Updated
 - minor bug fixed.
