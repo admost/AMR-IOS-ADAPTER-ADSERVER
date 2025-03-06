@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAdserver-Beta'
-  s.version          = '1.1.5.2'
+  s.version          = '1.1.6.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                 }
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform      = :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterAdserver/Libs/AMRAdapterAdserver.xcframework', 'AMRAdapterAdserver/Libs/AdmostAdServer.xcframework'
   s.resources = ['AMRAdapterAdserver/Resources/AdmostAdServerResources.bundle']

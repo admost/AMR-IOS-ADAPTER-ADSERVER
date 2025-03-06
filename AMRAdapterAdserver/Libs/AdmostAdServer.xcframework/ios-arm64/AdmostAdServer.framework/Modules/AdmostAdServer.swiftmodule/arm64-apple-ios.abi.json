@@ -34481,1183 +34481,1183 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 13,
       "value": "\"adBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 19,
       "value": "\"adButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 19,
       "value": "\"adButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 12,
       "value": "\"titleColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 11,
       "value": "\"descColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 18,
       "value": "\"endCardBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 24,
       "value": "\"endCardButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 24,
       "value": "\"endCardButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 19,
       "value": "\"endCardTitleColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 18,
       "value": "\"endCardDescColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 13,
       "value": "\"adBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 19,
       "value": "\"adButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 19,
       "value": "\"adButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 12,
       "value": "\"titleColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 11,
       "value": "\"descColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 18,
       "value": "\"endCardBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 24,
       "value": "\"endCardButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 24,
       "value": "\"endCardButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 19,
       "value": "\"endCardTitleColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 18,
       "value": "\"endCardDescColor\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4065,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4096,
       "length": 8,
       "value": "\"native\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4128,
       "length": 9,
       "value": "\"appOpen\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4166,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4205,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4065,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4096,
       "length": 8,
       "value": "\"native\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4128,
       "length": 9,
       "value": "\"appOpen\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4166,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4205,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4285,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4315,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4343,
       "length": 5,
       "value": "\"mpu\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4285,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4315,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4343,
       "length": 5,
       "value": "\"mpu\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4879,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4910,
       "length": 10,
       "value": "\"template\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4942,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4976,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5011,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5043,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5082,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5130,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5172,
       "length": 7,
       "value": "\"muted\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5204,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5235,
       "length": 6,
       "value": "\"adID\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5263,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5291,
       "length": 6,
       "value": "\"desc\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5321,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5358,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5405,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5459,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5501,
       "length": 7,
       "value": "\"style\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4879,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4910,
       "length": 10,
       "value": "\"template\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4942,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4976,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5011,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5043,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5082,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5130,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5172,
       "length": 7,
       "value": "\"muted\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5204,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5235,
       "length": 6,
       "value": "\"adID\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5263,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5291,
       "length": 6,
       "value": "\"desc\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5321,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5358,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5405,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5459,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 5501,
       "length": 7,
       "value": "\"style\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASInterstitial.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 707,
       "length": 15,
       "value": "\"AdmostAdServer.AASInterstitial\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
       "offset": 887,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 9,
       "value": "\"AdmostAdServer.MediaView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "IntegerLiteral",
       "offset": 539,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 5,
       "value": "10001"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 5,
       "value": "10002"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 5,
       "value": "10003"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 5,
       "value": "10004"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 5,
       "value": "10005"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 5,
       "value": "10006"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 5,
       "value": "10007"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 5,
       "value": "10008"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 5,
       "value": "10009"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 5,
       "value": "10001"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 5,
       "value": "10002"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 5,
       "value": "10003"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 5,
       "value": "10004"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 5,
       "value": "10005"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 5,
       "value": "10006"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 5,
       "value": "10007"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 5,
       "value": "10008"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 5,
       "value": "10009"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 5,
       "value": "10001"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 5,
       "value": "10002"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 5,
       "value": "10003"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 5,
       "value": "10004"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 5,
       "value": "10005"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 5,
       "value": "10006"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 5,
       "value": "10007"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 5,
       "value": "10008"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 5,
       "value": "10009"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/EndCardView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/EndCardView.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 11,
       "value": "\"AdmostAdServer.EndCardView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 13,
       "value": "\"AdmostAdServer.AASBannerView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
       "value": "\"video\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
       "value": "\"video\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIColor+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIColor+AAS.swift",
       "kind": "FloatLiteral",
       "offset": 181,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/Bundle+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/Bundle+AAS.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 25,
       "value": "\"AdmostAdServerResources\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASRewarded.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASRewarded.swift",
       "kind": "StringLiteral",
       "offset": 696,
       "length": 11,
       "value": "\"AdmostAdServer.AASRewarded\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
       "kind": "StringLiteral",
       "offset": 465,
       "length": 11,
       "value": "\"AdmostAdServer.AASNativeAd\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/ViewControllers\/FullscreenVC.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/ViewControllers\/FullscreenVC.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 14,
       "value": "\"AdmostAdServer.FullscreenAdVC\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 27,
       "value": "\"kAMRUserGuidKeyForAdapter\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 6,
       "value": "\"AdmostAdServer.AdView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/AdmostAdServer.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/AdmostAdServer.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.5\""
+      "value": "\"1.1.6\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1854,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2950,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3022,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 916,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 15,
       "value": "\"AdmostAdServer.VideoPlayerView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "BooleanLiteral",
       "offset": 587,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
       "kind": "BooleanLiteral",
       "offset": 587,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 10,
       "value": "\"AdmostAdServer.BannerView\""
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIView+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIView+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 1482,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ergeakova\/Projects\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 18,
