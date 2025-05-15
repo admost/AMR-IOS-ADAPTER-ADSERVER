@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AdmostAdServer",
+    "printedName": "AdmostAdServer",
     "children": [
       {
         "kind": "Import",
@@ -151,6 +151,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -264,8 +278,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Final"
+              "Final",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true
@@ -370,6 +384,22 @@
         "moduleName": "AdmostAdServer",
         "declAttributes": [
           "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -441,10 +471,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2030,6 +2081,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2091,6 +2156,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -2168,6 +2240,20 @@
         "mangledName": "$s14AdmostAdServer0B5StyleV",
         "moduleName": "AdmostAdServer",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2473,6 +2559,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2527,6 +2627,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -2731,6 +2838,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2785,6 +2906,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -4756,6 +4884,125 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "stickyRate",
+            "printedName": "stickyRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AdmostAdServer0B0V10stickyRateSiSgvp",
+            "mangledName": "$s14AdmostAdServer0B0V10stickyRateSiSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 18,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V10stickyRateSiSgvg",
+                "mangledName": "$s14AdmostAdServer0B0V10stickyRateSiSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V10stickyRateSiSgvs",
+                "mangledName": "$s14AdmostAdServer0B0V10stickyRateSiSgvs",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer0B0V10stickyRateSiSgvM",
+                "mangledName": "$s14AdmostAdServer0B0V10stickyRateSiSgvM",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "CodingKeys",
             "printedName": "CodingKeys",
@@ -5445,6 +5692,44 @@
                 "fixedbinaryorder": 17
               },
               {
+                "kind": "Var",
+                "name": "stickyRate",
+                "printedName": "stickyRate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdmostAdServer.Ad.CodingKeys.Type) -> AdmostAdServer.Ad.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AdmostAdServer.Ad.CodingKeys",
+                        "usr": "s:14AdmostAdServer0B0V10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AdmostAdServer.Ad.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AdmostAdServer.Ad.CodingKeys",
+                            "usr": "s:14AdmostAdServer0B0V10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14AdmostAdServer0B0V10CodingKeysO10stickyRateyA2EmF",
+                "mangledName": "$s14AdmostAdServer0B0V10CodingKeysO10stickyRateyA2EmF",
+                "moduleName": "AdmostAdServer",
+                "fixedbinaryorder": 18
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -5686,6 +5971,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5747,6 +6046,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -6139,6 +6445,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6390,6 +6710,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6669,6 +7005,57 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(im)adId",
                 "mangledName": "$s14AdmostAdServer15AASInterstitialC4adIdSSSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stickyRate",
+            "printedName": "stickyRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(py)stickyRate",
+            "mangledName": "$s14AdmostAdServer15AASInterstitialC10stickyRateSivp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(im)stickyRate",
+                "mangledName": "$s14AdmostAdServer15AASInterstitialC10stickyRateSivg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -6997,17 +7384,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdLoaderDelegate",
-            "printedName": "AdLoaderDelegate",
-            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
-            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "FullscreenAdVCDelegate",
-            "printedName": "FullscreenAdVCDelegate",
-            "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP",
-            "mangledName": "$s14AdmostAdServer010FullscreenB10VCDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7057,6 +7444,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdLoaderDelegate",
+            "printedName": "AdLoaderDelegate",
+            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
+            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullscreenAdVCDelegate",
+            "printedName": "FullscreenAdVCDelegate",
+            "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP",
+            "mangledName": "$s14AdmostAdServer010FullscreenB10VCDelegateP"
           }
         ]
       },
@@ -7266,7 +7667,23 @@
         "mangledName": "$s14AdmostAdServer17MediaViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7291,8 +7708,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -7405,8 +7823,9 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -7501,8 +7920,9 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -7597,6 +8017,7 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom"
             ],
             "accessors": [
@@ -7651,8 +8072,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -7686,8 +8108,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -7721,8 +8144,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -7748,8 +8172,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -7784,6 +8209,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC5media7isMutedAcA0D0V_Sbtcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -7824,6 +8250,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -7849,6 +8276,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -7870,6 +8298,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC04loadD0yyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -7892,6 +8321,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC10didPresentyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -7925,6 +8355,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -7952,6 +8383,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC12videoStarted0f6PlayerE0yAA05VideohE0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -7980,6 +8412,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC14videoCompleted0f6PlayerE0yAA05VideohE0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -8008,6 +8441,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC03webE13DidFinishLoad0fE0yAA03WebE0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -8042,6 +8476,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC03webE13DidFailToLoad0fE05erroryAA03WebE0C_So7NSErrorCtF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -8083,6 +8518,7 @@
             "mangledName": "$s14AdmostAdServer9MediaViewC03webE21ShouldAllowNavigation0fE07request16navigationActionSbAA03WebE0C_10Foundation10URLRequestVSo012WKNavigationL0CtF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -8095,6 +8531,7 @@
         "mangledName": "$s14AdmostAdServer9MediaViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -8108,17 +8545,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "VideoPlayerViewDelegate",
-            "printedName": "VideoPlayerViewDelegate",
-            "usr": "s:14AdmostAdServer23VideoPlayerViewDelegateP",
-            "mangledName": "$s14AdmostAdServer23VideoPlayerViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "WebViewDelegate",
-            "printedName": "WebViewDelegate",
-            "usr": "s:14AdmostAdServer15WebViewDelegateP",
-            "mangledName": "$s14AdmostAdServer15WebViewDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8182,6 +8619,20 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VideoPlayerViewDelegate",
+            "printedName": "VideoPlayerViewDelegate",
+            "usr": "s:14AdmostAdServer23VideoPlayerViewDelegateP",
+            "mangledName": "$s14AdmostAdServer23VideoPlayerViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "WebViewDelegate",
+            "printedName": "WebViewDelegate",
+            "usr": "s:14AdmostAdServer15WebViewDelegateP",
+            "mangledName": "$s14AdmostAdServer15WebViewDelegateP"
           }
         ]
       },
@@ -8233,7 +8684,23 @@
         "mangledName": "$s14AdmostAdServer15ArcViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -8268,9 +8735,10 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
-              "Final"
+              "Final",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -8294,8 +8762,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -8331,8 +8800,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -8357,8 +8827,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -8458,8 +8929,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -8555,8 +9027,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -8656,8 +9129,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -8756,8 +9230,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 7,
@@ -8879,6 +9354,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -8920,6 +9396,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -8945,6 +9422,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -8966,6 +9444,7 @@
             "mangledName": "$s14AdmostAdServer7ArcViewC5startyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -8988,6 +9467,7 @@
             "mangledName": "$s14AdmostAdServer7ArcViewC7cleanUpyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -8999,6 +9479,7 @@
         "mangledName": "$s14AdmostAdServer7ArcViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -9011,6 +9492,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9559,6 +10054,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9599,6 +10108,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -9655,8 +10171,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -9771,8 +10288,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -9896,8 +10414,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -10014,6 +10533,7 @@
             "moduleName": "AdmostAdServer",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -10055,6 +10575,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -10095,6 +10616,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10118,6 +10640,7 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -10146,6 +10669,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -10176,6 +10700,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10210,6 +10735,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10238,6 +10764,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10266,6 +10793,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10294,6 +10822,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10322,6 +10851,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10350,6 +10880,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10362,6 +10893,7 @@
         "moduleName": "AdmostAdServer",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -10376,10 +10908,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "MediaViewDelegate",
-            "printedName": "MediaViewDelegate",
-            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
-            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10450,6 +10989,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MediaViewDelegate",
+            "printedName": "MediaViewDelegate",
+            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
+            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
           }
         ]
       },
@@ -10540,7 +11086,23 @@
         "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -11026,6 +11588,22 @@
         "moduleName": "AdmostAdServer",
         "declAttributes": [
           "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11104,10 +11682,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -11756,6 +12355,22 @@
         "moduleName": "AdmostAdServer",
         "declAttributes": [
           "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11833,7 +12448,23 @@
         "mangledName": "$s14AdmostAdServer19EndCardViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -11858,8 +12489,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -11976,8 +12608,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12094,8 +12727,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12212,8 +12846,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12330,8 +12965,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12448,8 +13084,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12566,8 +13203,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12684,8 +13322,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -12802,8 +13441,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 8,
@@ -12917,8 +13557,9 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -12952,8 +13593,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -12987,8 +13629,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -13017,6 +13660,7 @@
             "mangledName": "$s14AdmostAdServer11EndCardViewC2adAcA0B0V_tcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -13057,6 +13701,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -13078,6 +13723,7 @@
             "mangledName": "$s14AdmostAdServer11EndCardViewC4loadyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -13106,6 +13752,7 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -13137,6 +13784,7 @@
             "objc_name": "closeButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -13166,6 +13814,7 @@
             "objc_name": "privacyButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -13199,6 +13848,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13210,6 +13860,7 @@
         "mangledName": "$s14AdmostAdServer11EndCardViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -13221,6 +13872,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13516,6 +14181,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13768,6 +14447,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -14123,6 +14816,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14358,6 +15065,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14532,6 +15255,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14591,8 +15328,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC"
@@ -14728,8 +15466,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -14867,8 +15606,9 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -14919,8 +15659,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -14979,8 +15720,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl",
               "ObjC"
@@ -15021,6 +15763,59 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "stickyRate",
+            "printedName": "stickyRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASBannerView(py)stickyRate",
+            "mangledName": "$s14AdmostAdServer13AASBannerViewC10stickyRateSivp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASBannerView(im)stickyRate",
+                "mangledName": "$s14AdmostAdServer13AASBannerViewC10stickyRateSivg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(zoneId:size:)",
@@ -15050,6 +15845,7 @@
             "moduleName": "AdmostAdServer",
             "objc_name": "initWithZoneId:size:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -15092,6 +15888,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -15114,6 +15911,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -15149,6 +15947,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -15183,6 +15982,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15217,6 +16017,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15245,6 +16046,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15279,6 +16081,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15307,6 +16110,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15335,6 +16139,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15363,6 +16168,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -15375,6 +16181,7 @@
         "moduleName": "AdmostAdServer",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -15389,17 +16196,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdLoaderDelegate",
-            "printedName": "AdLoaderDelegate",
-            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
-            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "BannerViewDelegate",
-            "printedName": "BannerViewDelegate",
-            "usr": "s:14AdmostAdServer18BannerViewDelegateP",
-            "mangledName": "$s14AdmostAdServer18BannerViewDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -15470,6 +16277,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdLoaderDelegate",
+            "printedName": "AdLoaderDelegate",
+            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
+            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BannerViewDelegate",
+            "printedName": "BannerViewDelegate",
+            "usr": "s:14AdmostAdServer18BannerViewDelegateP",
+            "mangledName": "$s14AdmostAdServer18BannerViewDelegateP"
           }
         ]
       },
@@ -15515,10 +16336,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -15748,6 +16590,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -15802,6 +16658,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -16498,6 +17361,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -16559,6 +17436,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -16698,6 +17582,20 @@
         "mangledName": "$s14AdmostAdServer5MediaV",
         "moduleName": "AdmostAdServer",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -16995,6 +17893,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -17274,6 +18188,57 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)adId",
                 "mangledName": "$s14AdmostAdServer11AASRewardedC4adIdSSSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stickyRate",
+            "printedName": "stickyRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(py)stickyRate",
+            "mangledName": "$s14AdmostAdServer11AASRewardedC10stickyRateSivp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)stickyRate",
+                "mangledName": "$s14AdmostAdServer11AASRewardedC10stickyRateSivg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -17602,17 +18567,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdLoaderDelegate",
-            "printedName": "AdLoaderDelegate",
-            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
-            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "FullscreenAdVCDelegate",
-            "printedName": "FullscreenAdVCDelegate",
-            "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP",
-            "mangledName": "$s14AdmostAdServer010FullscreenB10VCDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17662,6 +18627,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdLoaderDelegate",
+            "printedName": "AdLoaderDelegate",
+            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
+            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullscreenAdVCDelegate",
+            "printedName": "FullscreenAdVCDelegate",
+            "usr": "s:14AdmostAdServer010FullscreenB10VCDelegateP",
+            "mangledName": "$s14AdmostAdServer010FullscreenB10VCDelegateP"
           }
         ]
       },
@@ -17830,6 +18809,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -18218,6 +19213,57 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(im)adId",
                 "mangledName": "$s14AdmostAdServer09AASNativeB0C4adIdSSSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stickyRate",
+            "printedName": "stickyRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(py)stickyRate",
+            "mangledName": "$s14AdmostAdServer09AASNativeB0C10stickyRateSivp",
+            "moduleName": "AdmostAdServer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASNativeAd(im)stickyRate",
+                "mangledName": "$s14AdmostAdServer09AASNativeB0C10stickyRateSivg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -19086,17 +20132,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdLoaderDelegate",
-            "printedName": "AdLoaderDelegate",
-            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
-            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "MediaViewDelegate",
-            "printedName": "MediaViewDelegate",
-            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
-            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -19146,6 +20192,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdLoaderDelegate",
+            "printedName": "AdLoaderDelegate",
+            "usr": "s:14AdmostAdServer0B14LoaderDelegateP",
+            "mangledName": "$s14AdmostAdServer0B14LoaderDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MediaViewDelegate",
+            "printedName": "MediaViewDelegate",
+            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
+            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
           }
         ]
       },
@@ -19321,7 +20381,23 @@
         "mangledName": "$s14AdmostAdServer010FullscreenB10VCDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19346,8 +20422,9 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -19451,8 +20528,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -19572,8 +20650,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -19684,8 +20763,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 3,
@@ -19803,6 +20883,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC2adAcA0B0V_tcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -19843,6 +20924,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -19864,6 +20946,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC04loadB0yyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -19918,6 +21001,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC4show04fromE010completionySo16UIViewControllerC_ys5Error_pSgctF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -19939,6 +21023,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC7cleanUpyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -19994,6 +21079,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -20021,6 +21107,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC5ready6adViewyAA0bH0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20055,6 +21142,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC12failedToLoad6adView5erroryAA0bJ0C_s5Error_ptF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20083,6 +21171,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC9adClicked0F4ViewyAA0bH0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20111,6 +21200,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC14videoCompleted6adViewyAA0bI0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20139,6 +21229,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC11adSkippable0F4ViewyAA0bH0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20167,6 +21258,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC11closeTapped6adViewyAA0bI0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20195,6 +21287,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC10skipTapped6adViewyAA0bI0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20223,6 +21316,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC14endCardClicked0fG4ViewyAA03EndgI0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20251,6 +21345,7 @@
             "mangledName": "$s14AdmostAdServer010FullscreenB2VCC11closeTapped11endCardViewyAA03EndiJ0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -20263,6 +21358,7 @@
         "mangledName": "$s14AdmostAdServer010FullscreenB2VCC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -20276,17 +21372,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdViewDelegate",
-            "printedName": "AdViewDelegate",
-            "usr": "s:14AdmostAdServer0B12ViewDelegateP",
-            "mangledName": "$s14AdmostAdServer0B12ViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "EndCardViewDelegate",
-            "printedName": "EndCardViewDelegate",
-            "usr": "s:14AdmostAdServer19EndCardViewDelegateP",
-            "mangledName": "$s14AdmostAdServer19EndCardViewDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20339,17 +21435,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdViewDelegate",
+            "printedName": "AdViewDelegate",
+            "usr": "s:14AdmostAdServer0B12ViewDelegateP",
+            "mangledName": "$s14AdmostAdServer0B12ViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EndCardViewDelegate",
+            "printedName": "EndCardViewDelegate",
+            "usr": "s:14AdmostAdServer19EndCardViewDelegateP",
+            "mangledName": "$s14AdmostAdServer19EndCardViewDelegateP"
           }
         ]
       },
@@ -20459,10 +21562,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -20537,10 +21661,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -20654,10 +21799,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -21004,10 +22170,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -21038,10 +22225,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -21078,8 +22286,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -21196,8 +22405,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -21326,6 +22536,7 @@
             "moduleName": "AdmostAdServer",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -21367,6 +22578,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -21378,6 +22590,7 @@
         "mangledName": "$s14AdmostAdServer13MPUBannerViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -21392,6 +22605,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -21649,6 +22876,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -21689,6 +22930,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -21878,6 +23126,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -21896,6 +23158,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -22073,6 +23342,20 @@
         "moduleName": "AdmostAdServer",
         "isEnumExhaustive": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -22298,7 +23581,23 @@
         "mangledName": "$s14AdmostAdServer0B12ViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -22323,8 +23622,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -22438,8 +23738,9 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -22473,8 +23774,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -22508,8 +23810,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -22543,8 +23846,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -22578,8 +23882,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -22613,8 +23918,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -22648,8 +23954,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -22683,8 +23990,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -22717,8 +24025,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 9,
             "hasStorage": true,
@@ -22834,6 +24143,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC2adAcA0B0V_tcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -22874,6 +24184,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -22895,6 +24206,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC04loadB0yyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -22917,6 +24229,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC10didPresentyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -22938,6 +24251,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC14videoCompletedyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -22959,6 +24273,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC7cleanUpyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -22988,6 +24303,7 @@
             "objc_name": "closeButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC",
               "RawDocComment"
@@ -23018,6 +24334,7 @@
             "objc_name": "skipButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -23047,6 +24364,7 @@
             "objc_name": "privacyButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -23076,6 +24394,7 @@
             "objc_name": "soundButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -23105,6 +24424,7 @@
             "objc_name": "videoButtonTappedWithSender:",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -23127,6 +24447,7 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -23173,6 +24494,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -23207,6 +24529,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -23234,6 +24557,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC5ready05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23268,6 +24592,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC12failedToLoad05mediaD05erroryAA05MediaD0C_s5Error_ptF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23296,6 +24621,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC12videoStarted05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23324,6 +24650,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC14videoCompleted05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23352,6 +24679,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC11clickTapped05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23380,6 +24708,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC11closeTapped05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23408,6 +24737,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC7didShow05mediaD0yAA05MediaD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23436,6 +24766,7 @@
             "mangledName": "$s14AdmostAdServer0B4ViewC8timeOver03arcD0yAA03ArcD0C_tF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -23448,6 +24779,7 @@
         "mangledName": "$s14AdmostAdServer0B4ViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -23461,17 +24793,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "MediaViewDelegate",
-            "printedName": "MediaViewDelegate",
-            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
-            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "ArcViewDelegate",
-            "printedName": "ArcViewDelegate",
-            "usr": "s:14AdmostAdServer15ArcViewDelegateP",
-            "mangledName": "$s14AdmostAdServer15ArcViewDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -23542,6 +24874,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MediaViewDelegate",
+            "printedName": "MediaViewDelegate",
+            "usr": "s:14AdmostAdServer17MediaViewDelegateP",
+            "mangledName": "$s14AdmostAdServer17MediaViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ArcViewDelegate",
+            "printedName": "ArcViewDelegate",
+            "usr": "s:14AdmostAdServer15ArcViewDelegateP",
+            "mangledName": "$s14AdmostAdServer15ArcViewDelegateP"
           }
         ]
       },
@@ -23578,8 +24924,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23696,8 +25043,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23814,8 +25162,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -23932,8 +25281,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -24050,8 +25400,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -24168,8 +25519,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -24286,8 +25638,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -24416,6 +25769,7 @@
             "moduleName": "AdmostAdServer",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -24457,6 +25811,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -24480,6 +25835,7 @@
             "overriding": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -24492,6 +25848,7 @@
         "mangledName": "$s14AdmostAdServer17BannerInstallViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -24505,6 +25862,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24956,6 +26327,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -25317,6 +26702,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -25648,6 +27047,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -25673,6 +27086,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -26966,7 +28386,23 @@
         "usr": "s:14AdmostAdServer12ReachabilityC",
         "mangledName": "$s14AdmostAdServer12ReachabilityC",
         "moduleName": "AdmostAdServer",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -27043,7 +28479,23 @@
         "mangledName": "$s14AdmostAdServer23VideoPlayerViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -27068,8 +28520,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -27182,8 +28635,9 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -27278,6 +28732,7 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -27382,9 +28837,10 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
-              "Final"
+              "Final",
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true
@@ -27417,8 +28873,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -27452,8 +28909,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -27487,8 +28945,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -27514,8 +28973,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -27541,8 +29001,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -27571,6 +29032,7 @@
             "mangledName": "$s14AdmostAdServer15VideoPlayerViewC7isMutedACSb_tcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -27611,6 +29073,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -27642,6 +29105,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -27681,6 +29145,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -27774,6 +29239,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -27835,6 +29301,7 @@
             "mangledName": "$s14AdmostAdServer15VideoPlayerViewC4load3url10completiony10Foundation3URLVSg_yAA12CacheManagerC6ResultOy_AIGctF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -27857,6 +29324,7 @@
             "mangledName": "$s14AdmostAdServer15VideoPlayerViewC4showyyF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -27890,6 +29358,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -27901,6 +29370,7 @@
         "mangledName": "$s14AdmostAdServer15VideoPlayerViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -27912,6 +29382,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28122,7 +29606,23 @@
         "mangledName": "$s14AdmostAdServer15WebViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -28147,8 +29647,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 0,
@@ -28271,8 +29772,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -28306,8 +29808,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -28333,8 +29836,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -28376,8 +29880,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -28418,6 +29923,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required",
               "RawDocComment"
@@ -28451,6 +29957,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -28476,6 +29983,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -28517,6 +30025,7 @@
             "mangledName": "$s14AdmostAdServer7WebViewC8loadHTML10htmlString7baseURLySS_10Foundation0K0VSgtF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "RawDocComment"
@@ -28546,6 +30055,7 @@
             "mangledName": "$s14AdmostAdServer7WebViewC17executeJavascriptySbSSF",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Final",
               "DiscardableResult"
@@ -28630,6 +30140,7 @@
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -28688,6 +30199,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -28748,6 +30260,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -28830,6 +30343,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -28874,6 +30388,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -28924,6 +30439,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -28974,6 +30490,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -29028,6 +30545,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -29085,6 +30603,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -29111,6 +30630,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -29177,6 +30697,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -29188,6 +30709,7 @@
         "mangledName": "$s14AdmostAdServer7WebViewC",
         "moduleName": "AdmostAdServer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "ObjC"
@@ -29200,6 +30722,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -29450,10 +30986,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -29619,7 +31176,23 @@
         "mangledName": "$s14AdmostAdServer18BannerViewDelegateP",
         "moduleName": "AdmostAdServer",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -29644,8 +31217,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -29760,8 +31334,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
@@ -29876,8 +31451,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 2,
@@ -29984,8 +31560,9 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -30075,8 +31652,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -30111,6 +31689,7 @@
             "mangledName": "$s14AdmostAdServer10BannerViewC5frame2adACSo6CGRectV_AA0B0Vtcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -30151,6 +31730,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -30177,6 +31757,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -30199,6 +31780,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -30221,6 +31803,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -30247,6 +31830,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -30276,6 +31860,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "ObjC"
@@ -30304,6 +31889,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "ObjC"
@@ -30338,6 +31924,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -30350,6 +31937,7 @@
         "moduleName": "AdmostAdServer",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -30360,6 +31948,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -30742,6 +32344,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -30760,6 +32376,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -31068,6 +32691,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -31397,6 +33034,22 @@
         "moduleName": "AdmostAdServer",
         "declAttributes": [
           "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -31470,6 +33123,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -32009,12 +33676,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -32052,6 +33713,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -32103,6 +33765,7 @@
             "static": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -32140,6 +33803,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIDevice",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -32153,6 +33817,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -32226,6 +33904,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -32239,6 +33918,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIButton",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -32255,6 +33935,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -32397,6 +34091,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -32544,6 +34252,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -32816,6 +34538,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -32901,6 +34637,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -32963,6 +34700,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -32976,6 +34714,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIImageView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -32991,6 +34730,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -33392,6 +35145,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -33572,6 +35339,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -34178,6 +35959,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "OptionSet",
             "printedName": "OptionSet",
             "children": [
@@ -34303,6 +36098,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -34326,6 +36122,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -34348,6 +36145,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -34384,6 +36182,7 @@
             "moduleName": "AdmostAdServer",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -34397,6 +36196,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -34411,6 +36211,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -34553,111 +36367,6 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 533,
-      "length": 13,
-      "value": "\"adBackColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 19,
-      "value": "\"adButtonBackColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 633,
-      "length": 19,
-      "value": "\"adButtonTextColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 679,
-      "length": 12,
-      "value": "\"titleColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 717,
-      "length": 11,
-      "value": "\"descColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 761,
-      "length": 18,
-      "value": "\"endCardBackColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 818,
-      "length": 24,
-      "value": "\"endCardButtonBackColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 24,
-      "value": "\"endCardButtonTextColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 19,
-      "value": "\"endCardTitleColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 991,
-      "length": 18,
-      "value": "\"endCardDescColor\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4065,
-      "length": 8,
-      "value": "\"banner\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4096,
-      "length": 8,
-      "value": "\"native\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4128,
-      "length": 9,
-      "value": "\"appOpen\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4166,
-      "length": 14,
-      "value": "\"interstitial\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4205,
-      "length": 10,
-      "value": "\"rewarded\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
       "offset": 4065,
       "length": 8,
       "value": "\"banner\""
@@ -34714,282 +36423,142 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4285,
-      "length": 7,
-      "value": "\"media\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4315,
-      "length": 8,
-      "value": "\"banner\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4343,
-      "length": 5,
-      "value": "\"mpu\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4879,
+      "offset": 4904,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4910,
+      "offset": 4935,
       "length": 10,
       "value": "\"template\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4942,
+      "offset": 4967,
       "length": 7,
       "value": "\"media\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4976,
+      "offset": 5001,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5011,
+      "offset": 5036,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5043,
+      "offset": 5068,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5107,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5155,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5172,
+      "offset": 5197,
       "length": 7,
       "value": "\"muted\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5204,
+      "offset": 5229,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5235,
+      "offset": 5260,
       "length": 6,
       "value": "\"adID\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5263,
+      "offset": 5288,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5291,
+      "offset": 5316,
       "length": 6,
       "value": "\"desc\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5321,
+      "offset": 5346,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5358,
+      "offset": 5383,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5405,
+      "offset": 5430,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5459,
+      "offset": 5484,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5501,
+      "offset": 5526,
       "length": 7,
       "value": "\"style\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4879,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4910,
-      "length": 10,
-      "value": "\"template\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4942,
-      "length": 7,
-      "value": "\"media\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 4976,
+      "offset": 5560,
       "length": 12,
-      "value": "\"privacyURL\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5011,
-      "length": 8,
-      "value": "\"ctaURL\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5043,
-      "length": 9,
-      "value": "\"ctaText\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5082,
-      "length": 15,
-      "value": "\"impTrackingId\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5130,
-      "length": 18,
-      "value": "\"thirdPartyImpURL\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5172,
-      "length": 7,
-      "value": "\"muted\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5204,
-      "length": 10,
-      "value": "\"autoPlay\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5235,
-      "length": 6,
-      "value": "\"adID\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5263,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5291,
-      "length": 6,
-      "value": "\"desc\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5321,
-      "length": 9,
-      "value": "\"iconURL\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5358,
-      "length": 13,
-      "value": "\"skippableAt\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5405,
-      "length": 19,
-      "value": "\"rvEndCardImageURL\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5459,
-      "length": 20,
-      "value": "\"mediaButtonEnabled\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
-      "kind": "StringLiteral",
-      "offset": 5501,
-      "length": 7,
-      "value": "\"style\""
+      "value": "\"stickyRate\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 707,
-      "length": 15,
-      "value": "\"AdmostAdServer.AASInterstitial\""
+      "kind": "IntegerLiteral",
+      "offset": 1001,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
@@ -34997,13 +36566,6 @@
       "offset": 887,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
-      "kind": "StringLiteral",
-      "offset": 445,
-      "length": 9,
-      "value": "\"AdmostAdServer.MediaView\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
@@ -35090,132 +36652,6 @@
       "value": "10009"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 169,
-      "length": 5,
-      "value": "10001"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 5,
-      "value": "10002"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 238,
-      "length": 5,
-      "value": "10003"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 262,
-      "length": 5,
-      "value": "10004"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 291,
-      "length": 5,
-      "value": "10005"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 5,
-      "value": "10006"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 5,
-      "value": "10007"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 5,
-      "value": "10008"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 417,
-      "length": 5,
-      "value": "10009"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 169,
-      "length": 5,
-      "value": "10001"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 5,
-      "value": "10002"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 238,
-      "length": 5,
-      "value": "10003"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 262,
-      "length": 5,
-      "value": "10004"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 291,
-      "length": 5,
-      "value": "10005"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 5,
-      "value": "10006"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 5,
-      "value": "10007"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 5,
-      "value": "10008"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 417,
-      "length": 5,
-      "value": "10009"
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
       "kind": "StringLiteral",
       "offset": 354,
@@ -35230,34 +36666,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/EndCardView.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 11,
-      "value": "\"AdmostAdServer.EndCardView\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 160,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
@@ -35300,48 +36708,20 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 293,
+      "offset": 576,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 945,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 318,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 602,
-      "length": 13,
-      "value": "\"AdmostAdServer.AASBannerView\""
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 188,
@@ -35359,48 +36739,6 @@
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 245,
-      "length": 6,
-      "value": "\"html\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 188,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 7,
-      "value": "\"video\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 245,
-      "length": 6,
-      "value": "\"html\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 414,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
       "length": 6,
       "value": "\"html\""
     },
@@ -35441,24 +36779,17 @@
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASRewarded.swift",
-      "kind": "StringLiteral",
-      "offset": 696,
-      "length": 11,
-      "value": "\"AdmostAdServer.AASRewarded\""
+      "kind": "IntegerLiteral",
+      "offset": 982,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 11,
-      "value": "\"AdmostAdServer.AASNativeAd\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/ViewControllers\/FullscreenVC.swift",
-      "kind": "StringLiteral",
-      "offset": 447,
-      "length": 14,
-      "value": "\"AdmostAdServer.FullscreenAdVC\""
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
@@ -35482,32 +36813,11 @@
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 6,
-      "value": "\"AdmostAdServer.AdView\""
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/AdmostAdServer.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.6\""
+      "value": "\"1.1.7\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
@@ -35566,13 +36876,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 15,
-      "value": "\"AdmostAdServer.VideoPlayerView\""
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "BooleanLiteral",
       "offset": 587,
@@ -35580,6 +36883,34 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6874,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6883,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6894,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6904,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
       "kind": "BooleanLiteral",
       "offset": 587,
@@ -35587,46 +36918,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/BannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 10,
-      "value": "\"AdmostAdServer.BannerView\""
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIView+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 1482,
       "length": 2,
       "value": "60"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 160,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 188,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",

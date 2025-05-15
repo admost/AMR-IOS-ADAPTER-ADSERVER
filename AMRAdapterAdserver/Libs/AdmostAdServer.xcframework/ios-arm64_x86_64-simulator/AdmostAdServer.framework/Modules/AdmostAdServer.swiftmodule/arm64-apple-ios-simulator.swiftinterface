@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name AdmostAdServer
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdmostAdServer
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVKit
 import CoreTelephony
 import Foundation
@@ -28,6 +29,9 @@ import _SwiftConcurrencyShims
     get
   }
   @objc public var adId: Swift.String? {
+    get
+  }
+  @objc public var stickyRate: Swift.Int {
     get
   }
   @objc public init(zoneId: Swift.String)
@@ -76,20 +80,23 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class AASBannerView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any AdmostAdServer.AASBannerViewDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) public var customData: [Swift.String : Any]?
-  @objc @_Concurrency.MainActor(unsafe) public var zoneId: Swift.String {
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class AASBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdmostAdServer.AASBannerViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var customData: [Swift.String : Any]?
+  @objc @_Concurrency.MainActor @preconcurrency public var zoneId: Swift.String {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) public var status: AdmostAdServer.AdStatus {
+  @objc @_Concurrency.MainActor @preconcurrency public var status: AdmostAdServer.AdStatus {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) public var adId: Swift.String? {
+  @objc @_Concurrency.MainActor @preconcurrency public var adId: Swift.String? {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) public init(zoneId: Swift.String, size: AdmostAdServer.AASBannerSize)
-  @objc @_Concurrency.MainActor(unsafe) public func load()
+  @objc @_Concurrency.MainActor @preconcurrency public var stickyRate: Swift.Int {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String, size: AdmostAdServer.AASBannerSize)
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
   @objc deinit
 }
 @objc public protocol AASRewardedDelegate {
@@ -112,6 +119,9 @@ import _SwiftConcurrencyShims
   @objc public var adId: Swift.String? {
     get
   }
+  @objc public var stickyRate: Swift.Int {
+    get
+  }
   @objc public init(zoneId: Swift.String)
   @objc public func load()
   @objc public func show(_ fromVC: UIKit.UIViewController)
@@ -130,6 +140,9 @@ import _SwiftConcurrencyShims
     get
   }
   @objc public var adId: Swift.String? {
+    get
+  }
+  @objc public var stickyRate: Swift.Int {
     get
   }
   @objc public var status: AdmostAdServer.AdStatus {
