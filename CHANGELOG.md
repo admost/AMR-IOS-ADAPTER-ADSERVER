@@ -2,7 +2,7 @@
 
 Changelog for AMRAdapterAdserver. 
 
-## [1.1.7.1] - 2025-05-15
+## [1.1.8.0] - 2025-05-15
 ### Updated
 - stickyRate added.
 
