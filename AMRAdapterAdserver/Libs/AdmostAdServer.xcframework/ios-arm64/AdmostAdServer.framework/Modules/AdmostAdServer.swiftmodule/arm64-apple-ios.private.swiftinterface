@@ -31,9 +31,6 @@ import _SwiftConcurrencyShims
   @objc public var adId: Swift.String? {
     get
   }
-  @objc public var stickyRate: Swift.Int {
-    get
-  }
   @objc public init(zoneId: Swift.String)
   @objc public func load()
   @objc public func show(_ fromVC: UIKit.UIViewController)
@@ -117,9 +114,6 @@ import _SwiftConcurrencyShims
     get
   }
   @objc public var adId: Swift.String? {
-    get
-  }
-  @objc public var stickyRate: Swift.Int {
     get
   }
   @objc public init(zoneId: Swift.String)

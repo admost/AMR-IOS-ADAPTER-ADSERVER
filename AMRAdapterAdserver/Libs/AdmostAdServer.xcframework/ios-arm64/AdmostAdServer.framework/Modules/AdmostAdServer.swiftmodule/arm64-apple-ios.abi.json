@@ -7016,57 +7016,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "stickyRate",
-            "printedName": "stickyRate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(py)stickyRate",
-            "mangledName": "$s14AdmostAdServer15AASInterstitialC10stickyRateSivp",
-            "moduleName": "AdmostAdServer",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterstitial(im)stickyRate",
-                "mangledName": "$s14AdmostAdServer15AASInterstitialC10stickyRateSivg",
-                "moduleName": "AdmostAdServer",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(zoneId:)",
@@ -18188,57 +18137,6 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)adId",
                 "mangledName": "$s14AdmostAdServer11AASRewardedC4adIdSSSgvg",
-                "moduleName": "AdmostAdServer",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "stickyRate",
-            "printedName": "stickyRate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(py)stickyRate",
-            "mangledName": "$s14AdmostAdServer11AASRewardedC10stickyRateSivp",
-            "moduleName": "AdmostAdServer",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdmostAdServer@objc(cs)AASRewarded(im)stickyRate",
-                "mangledName": "$s14AdmostAdServer11AASRewardedC10stickyRateSivg",
                 "moduleName": "AdmostAdServer",
                 "implicit": true,
                 "isOpen": true,
@@ -36554,13 +36452,6 @@
       "value": "\"stickyRate\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASInterstitial.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1001,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
       "offset": 887,
@@ -36778,13 +36669,6 @@
       "value": "\"AdmostAdServerResources\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASRewarded.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
@@ -36817,7 +36701,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.7\""
+      "value": "\"1.1.8\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",

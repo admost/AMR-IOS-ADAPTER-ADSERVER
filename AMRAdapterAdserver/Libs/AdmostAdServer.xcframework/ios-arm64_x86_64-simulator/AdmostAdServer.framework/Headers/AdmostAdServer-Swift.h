@@ -361,7 +361,6 @@ SWIFT_CLASS("_TtC14AdmostAdServer15AASInterstitial")
 @property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
 @property (nonatomic, readonly) enum AdStatus status;
 @property (nonatomic, readonly, copy) NSString * _Nullable adId;
-@property (nonatomic, readonly) NSInteger stickyRate;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show:(UIViewController * _Nonnull)fromVC;
@@ -420,7 +419,6 @@ SWIFT_CLASS("_TtC14AdmostAdServer11AASRewarded")
 @property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
 @property (nonatomic, readonly) enum AdStatus status;
 @property (nonatomic, readonly, copy) NSString * _Nullable adId;
-@property (nonatomic, readonly) NSInteger stickyRate;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show:(UIViewController * _Nonnull)fromVC;
@@ -841,7 +839,6 @@ SWIFT_CLASS("_TtC14AdmostAdServer15AASInterstitial")
 @property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
 @property (nonatomic, readonly) enum AdStatus status;
 @property (nonatomic, readonly, copy) NSString * _Nullable adId;
-@property (nonatomic, readonly) NSInteger stickyRate;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show:(UIViewController * _Nonnull)fromVC;
@@ -900,7 +897,6 @@ SWIFT_CLASS("_TtC14AdmostAdServer11AASRewarded")
 @property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
 @property (nonatomic, readonly) enum AdStatus status;
 @property (nonatomic, readonly, copy) NSString * _Nullable adId;
-@property (nonatomic, readonly) NSInteger stickyRate;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show:(UIViewController * _Nonnull)fromVC;
