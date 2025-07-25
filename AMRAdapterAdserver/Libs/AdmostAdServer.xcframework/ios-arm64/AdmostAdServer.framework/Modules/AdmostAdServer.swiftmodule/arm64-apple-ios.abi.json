@@ -7853,6 +7853,128 @@
           },
           {
             "kind": "Var",
+            "name": "ctaURL",
+            "printedName": "ctaURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvp",
+            "mangledName": "$s14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvg",
+                "mangledName": "$s14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvs",
+                "mangledName": "$s14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvs",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvM",
+                "mangledName": "$s14AdmostAdServer9MediaViewC6ctaURL10Foundation0G0VSgvM",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isMuted",
             "printedName": "isMuted",
             "children": [
@@ -7873,7 +7995,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "hasStorage": true,
             "accessors": [
               {
@@ -8026,7 +8148,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "hasStorage": true
           },
           {
@@ -8062,7 +8184,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true
           },
           {
@@ -8098,7 +8220,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -8126,13 +8248,13 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(media:isMuted:)",
+            "printedName": "init(media:isMuted:ctaURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8151,11 +8273,25 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14AdmostAdServer9MediaViewC5media7isMutedAcA0D0V_Sbtcfc",
-            "mangledName": "$s14AdmostAdServer9MediaViewC5media7isMutedAcA0D0V_Sbtcfc",
+            "usr": "s:14AdmostAdServer9MediaViewC5media7isMuted6ctaURLAcA0D0V_Sb10Foundation0J0VSgtcfc",
+            "mangledName": "$s14AdmostAdServer9MediaViewC5media7isMuted6ctaURLAcA0D0V_Sb10Foundation0J0VSgtcfc",
             "moduleName": "AdmostAdServer",
             "declAttributes": [
               "Preconcurrency",
@@ -36454,7 +36590,7 @@
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 887,
+      "offset": 908,
       "length": 5,
       "value": "false"
     },
@@ -36701,7 +36837,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.1.8\""
+      "value": "\"1.1.9\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
