@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver. 
 
+## [1.2.1.0] - 2025-12-09
+### Updated
+- Native ad assets updated.
+
 ## [1.1.9.0] - 2025-07-25
 ### Updated
 - image and video click issues fixed.
