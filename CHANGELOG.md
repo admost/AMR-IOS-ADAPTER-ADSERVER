@@ -1,6 +1,12 @@
 # Changelog
 
-Changelog for AMRAdapterAdserver. 
+Changelog for AMRAdapterAdserver.
+
+## [1.2.2] - 2026-03-19
+### Updated
+- SPM support added.
+- Min iOS version 13.0
+- AMRSDK dependency updated to 1.5.84
 
 ## [1.2.1.0] - 2025-12-09
 ### Updated
