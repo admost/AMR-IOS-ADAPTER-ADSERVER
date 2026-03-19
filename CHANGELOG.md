@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.2.3] - 2026-03-19
+### Updated
+- AdmostAdServerResources bundle fixed for App Store submission.
+
 ## [1.2.2] - 2026-03-19
 ### Updated
 - SPM support added.
