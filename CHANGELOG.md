@@ -2,6 +2,11 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.2.4] - 2026-03-29
+### Updated
+- Min iOS version 13.0+
+- Bundle issue fixed.
+
 ## [1.2.3] - 2026-03-19
 ### Updated
 - AdmostAdServerResources bundle fixed for App Store submission.

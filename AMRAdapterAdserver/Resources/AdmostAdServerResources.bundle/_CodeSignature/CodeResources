@@ -8,25 +8,17 @@
 		<data>
 		k5bmEzkmTzFbeBvvaudDgFgw+9A=
 		</data>
-		<key>EndCardView.nib/objects-13.0+.nib</key>
+		<key>EndCardView.nib</key>
 		<data>
-		ZxnN7ZnkkbhOkf7L7fUjE9Cm4E8=
-		</data>
-		<key>EndCardView.nib/runtime.nib</key>
-		<data>
-		s1iZok3q8OYtcVHD5Szimni4CxM=
+		IHHDJ/IGwnZRtndVl8LFnOWzwHA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Zp6MdjpY/NNc4k03sp70XvV7Nww=
+		hkim/LA9hgK3deDqt+YXxyD5tYU=
 		</data>
-		<key>MPUBannerView.nib/objects-13.0+.nib</key>
+		<key>MPUBannerView.nib</key>
 		<data>
 		5Eyl7CaYkBZ576eT1qWJOXSNIHM=
-		</data>
-		<key>MPUBannerView.nib/runtime.nib</key>
-		<data>
-		bNzvG1Hdv0cqbB6cqcNEv+aEnyQ=
 		</data>
 		<key>MediaBannerView.nib</key>
 		<data>
@@ -66,32 +58,18 @@
 			5SJd5Hz1s43M3jnVg5avrvKwMq+6kjXgJmA9wRdi1l8=
 			</data>
 		</dict>
-		<key>EndCardView.nib/objects-13.0+.nib</key>
+		<key>EndCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+wzcUMOIJ2qtsjifnC7z2C3OyQgh/09GnbYc34YqO8=
+			1e4gchIxKK37Knnf0e1HlAjuyBPy9sGmd8DEVH9kbmM=
 			</data>
 		</dict>
-		<key>EndCardView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aF4Rzq7A6uREgYIWm1HNDBmsRBh/p8IXej20kFsJG8o=
-			</data>
-		</dict>
-		<key>MPUBannerView.nib/objects-13.0+.nib</key>
+		<key>MPUBannerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			8X/CYZcuGqbZSMMclUUC1OC6gu/LlDAJ4P43Min/mc4=
-			</data>
-		</dict>
-		<key>MPUBannerView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TxFXcv72cIZ6a+jXAm/o/SiHpycmwL/OigFzTLf2MDw=
 			</data>
 		</dict>
 		<key>MediaBannerView.nib</key>

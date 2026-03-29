@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdmostAdServer
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdmostAdServer
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import AVKit
 import CoreTelephony
 import Foundation
@@ -40,9 +40,7 @@ import _SwiftConcurrencyShims
   case new = 0
   case loading = 1
   case loaded = 2
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -53,9 +51,7 @@ import _SwiftConcurrencyShims
     case new = 0
     case loading = 1
     case loaded = 2
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -75,9 +71,7 @@ import _SwiftConcurrencyShims
 @objc public enum AASBannerSize : Swift.Int {
   case banner
   case mpu
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -184,9 +178,7 @@ import _SwiftConcurrencyShims
   @objc public static var isInitialized: Swift.Bool {
     @objc get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func start(completion: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
-  #endif
   @objc public static func setLogLevel(_ logLevel: AdmostAdServer.LogLevel)
   @objc public static func setEncryptedIDFA(_ encryptedIDFA: Swift.String)
   @objc public static func setAdmostUserId(_ admostUserId: Swift.String)
@@ -199,9 +191,7 @@ import _SwiftConcurrencyShims
   case error = 1
   case info = 2
   case debug = 3
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get

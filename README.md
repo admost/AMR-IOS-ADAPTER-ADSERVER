@@ -12,7 +12,7 @@ Adserver adapter for AMRSDK. Allows publishers to mediate Adserver banner, nativ
 ## Requirements
 
 - iOS 13.0+
-- Xcode 15+
+- Xcode 26+
 
 ## Installation
 
