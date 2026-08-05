@@ -373,8 +373,12 @@ extern "C" {
 #if defined(__OBJC__)
 
 typedef SWIFT_ENUM(NSInteger, AASBannerSize, open) {
+/// 320x50
   AASBannerSizeBanner = 0,
+/// 300x250
   AASBannerSizeMpu = 1,
+/// 728x90, the tablet leaderboard slot.
+  AASBannerSizeLeaderboard = 2,
 };
 
 @protocol AASBannerViewDelegate;
@@ -923,8 +927,12 @@ extern "C" {
 #if defined(__OBJC__)
 
 typedef SWIFT_ENUM(NSInteger, AASBannerSize, open) {
+/// 320x50
   AASBannerSizeBanner = 0,
+/// 300x250
   AASBannerSizeMpu = 1,
+/// 728x90, the tablet leaderboard slot.
+  AASBannerSizeLeaderboard = 2,
 };
 
 @protocol AASBannerViewDelegate;

@@ -73,6 +73,7 @@ import _SwiftConcurrencyShims
 @objc public enum AASBannerSize : Swift.Int {
   case banner
   case mpu
+  case leaderboard
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

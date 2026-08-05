@@ -2,6 +2,21 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.1] - 2026-08-05
+### Fixed
+- Third party tags that declare no size of their own now render. Such a tag collapsed the
+  measuring wrapper to zero, so no size was ever reported and the banner was never
+  released — it was dropped on the mediation request timeout instead of being shown. The
+  size is now measured through a fallback chain, and a tag that still has none is
+  stretched over the slot it was given.
+- 728x90 zones (`AMRBannerSizeHeight90`) were handed a 300x250 slot. `AASBannerSize` gains
+  `leaderboard` and the adapter maps to it. 320x50 and 300x250 zones are unchanged.
+- A 300x250 tag in an mpu slot is no longer trimmed by the height guard meant for banner
+  slots.
+
+### Updated
+- AdmostAdServer 1.3.1.
+
 ## [1.3.0] - 2026-08-05
 ### Added
 - Third party tag (`html_tag`) banner support. Tags are wrapped with a measure and scale

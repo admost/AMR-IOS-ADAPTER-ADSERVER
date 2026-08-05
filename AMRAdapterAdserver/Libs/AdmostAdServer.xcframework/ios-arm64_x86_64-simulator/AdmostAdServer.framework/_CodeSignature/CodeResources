@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AdmostAdServer-Swift.h</key>
 		<data>
-		mBOtBJRmjn+jxTxtgYWCVPrmCEE=
+		C9v0uqIjURxNydEAxM7+1LlRnPU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ZMKlNuvueKLvlYR9cmPnR5rJM9w=
+		zsWaKpf6cWx63YNyoK1ha5zCEdk=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		9ptVpFATEQbhqWx6o+p7zCyOSqk=
+		LaZEHrKTP7xApJSCrQFWUq8mx10=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aOXqsr2gWqO5KYTzi5TMuX7QKmw=
+		V1HrXYAv8jysAsYqMSakQInU4HM=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		h2kvF0iHa0EbDvDchOfM86RmlPM=
+		iHZ4tJarFfObqAFLIuKxHVLERKc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		k2eb5Eq8oT+MpJyhnCkFrmioiPQ=
+		igSu46DRNmx/+tQkygOutDr7whQ=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		h2kvF0iHa0EbDvDchOfM86RmlPM=
+		iHZ4tJarFfObqAFLIuKxHVLERKc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KG05n6gSaSRWHsufGE8X6nbvL0A=
+		V7mllbGuceMtuQ3QEfpjH9F3Xls=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aOXqsr2gWqO5KYTzi5TMuX7QKmw=
+		V1HrXYAv8jysAsYqMSakQInU4HM=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		o+tveUNow6RHpMmQNHiVjMGRhis=
+		wmN9+71v7DeeI+YbwV/lM8fQC4E=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1zPxmUwFObFEIsrGTPdOzkikMvQ=
+		+ELnJUZCR5e+1NLuPqgxGYpRr7w=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o+tveUNow6RHpMmQNHiVjMGRhis=
+		wmN9+71v7DeeI+YbwV/lM8fQC4E=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zHCs5kO3RtjoxYLyfDq+BIOC5c4=
+		EjjIoG3E5DWxZHsZUZDjksipF/0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,91 +71,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Xp3yxdooBmFfhwL0dP5O2TSIOi8JloPBgVP81P13FQ=
+			qORUWcZWGFWXBLTjKDhsG+uJlXCjBsYKKS1Wu+6Ilpo=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pymYJzpFeq+tDD5L7Km0S7q1YVOusKKbaSMZt/9G05s=
+			+m0O4yZbfTzQ7RtOQCEB5doqp6thd+Px9hQrsG0eBvM=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1bbAO6zJQZmn6D+uvPE4SqCcN4ERJz7Vug63SPAboNI=
+			ocvwNejVV5cT5nDTGN1rkgEKfosPqdNmURHYalnRDHI=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWXuMdmPJiSG7hGWh0yDz48tHUxk0M7BeRA4HMUS1c8=
+			rM2ONqxoo1bvF7S+QPUJkOWsOlusK4mfecXV0M2yazw=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPwf+A7QJ3N90AeTbfUy/+PTYYt7GgGYvf5sAh7Xea4=
+			5Hl1f6/8njVQmuKS8a7b2zXQPViGo6EHAfoMRk8gWxE=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+VU6+Kw0a4Z5HIw+lGL8dpSRCqFgbVJyCn7XmiOf7o=
+			A8rHDpU4D39xtTOU159agonZtGGi0UYzpUJyXoYI7DI=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPwf+A7QJ3N90AeTbfUy/+PTYYt7GgGYvf5sAh7Xea4=
+			5Hl1f6/8njVQmuKS8a7b2zXQPViGo6EHAfoMRk8gWxE=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ibf26Ru7Vr6w1NOTzHnTahPgYAfv75xL9cLQtFQaviA=
+			vAZNEHedYMWNncgdiiSFFKAI+v3EhcN00SQuyMUnTj0=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWXuMdmPJiSG7hGWh0yDz48tHUxk0M7BeRA4HMUS1c8=
+			rM2ONqxoo1bvF7S+QPUJkOWsOlusK4mfecXV0M2yazw=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/7COEJhgd4l4RzIZE5oMDqu7z075n+AtpQtRV0EyU/0=
+			s+OOz2CCm7XMq498ySn4118yGsEe3vovjU4FunQrro8=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			klfVsiStSQEm6MH79hdx+bZyJhGvrq7Z+mwPNk6XYRA=
+			PHLpYPdV4VAYAmN2PzCocoS8CD+y8jpW/HeCKkD+XVo=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/7COEJhgd4l4RzIZE5oMDqu7z075n+AtpQtRV0EyU/0=
+			s+OOz2CCm7XMq498ySn4118yGsEe3vovjU4FunQrro8=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p3RL8KEN2ofQ7ZwU+r8NGtEEmKXwvcBN3IXfTEBlFr4=
+			kg4I8VBS4PSrgm9lA/qhoDIb2sYF1+0eQ28xjQt1duQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
