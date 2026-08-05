@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hkim/LA9hgK3deDqt+YXxyD5tYU=
+		j4FgWs7NjQUDC1LADlX/SLB3nrc=
 		</data>
 		<key>MPUBannerView.nib</key>
 		<data>
@@ -47,6 +47,10 @@
 		<key>icon.soundonn.png</key>
 		<data>
 		70IcsOANcFpfI8a9n0ZL0N0gRvU=
+		</data>
+		<key>omsdk-v1.js</key>
+		<data>
+		PGCUxgkFoHKAjQgmZFchAiksHWY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -119,6 +123,13 @@
 			<key>hash2</key>
 			<data>
 			4Eb4IgfjFPMzebXptZOYjbgnMu/Jzv7VzhEGLTwddOs=
+			</data>
+		</dict>
+		<key>omsdk-v1.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N5Up68a5YrM1BJZtLHrXx2gkv/eNoF1mOcgU/1ctY7A=
 			</data>
 		</dict>
 	</dict>

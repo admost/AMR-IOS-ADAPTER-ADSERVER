@@ -2,6 +2,25 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.0] - 2026-08-05
+### Added
+- Third party tag (`html_tag`) banner support. Tags are wrapped with a measure and scale
+  script, fit into the banner box with their aspect ratio preserved, and report their real
+  size back so the banner can size itself.
+- IAB Open Measurement (OMID) support for third party tags, via the `kokteyl1` namespaced
+  OM SDK 1.6.9. `[APIFRAMEWORKS]` and `[OMIDPARTNER]` macros are filled in and the OMID JS
+  service is injected ahead of the tag's own script.
+
+### Updated
+- AdmostAdServer 1.3.0.
+- Tag click-throughs opened with `window.open()` now open externally instead of navigating
+  the ad's own web view.
+
+## [1.2.5] - 2026-03-29
+### Updated
+- Bundle executable removed for App Store submission.
+- pinToCorner layout bug fixed.
+
 ## [1.2.4] - 2026-03-29
 ### Updated
 - Min iOS version 13.0+

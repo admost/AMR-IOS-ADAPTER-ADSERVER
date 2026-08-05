@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/AdmostAdServer-Swift.h</key>
 		<data>
-		yI9nkyvd0Bhl0XTYO2zsOrSub4E=
+		sgQ8L9tibI8hKBquzPabUEekPd4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		marKrtQ1P624+36gvPOZK7sFKXI=
+		GCi5Jlbh7phP+roFkLYRgcR6FYY=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ac7p7FPmsgZTlkJO2wAJRRDCCik=
+		B8Us9bHq0twwe5gZ+hKZTnXis1Y=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0Kgrqfmykjqy4Te40D5enqq0QVE=
+		eUEUowz5ouPkAl6b9k2w9u1p41s=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		E9fzrCw3bYy2JFTiFRArEFkc7ds=
+		ZAe6T95KbugAZRym5+wSCZ/VjDI=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ji4KJjkVqDCAIX4df2AkG7RpbBc=
+		g13+pghr0ZIxjEmd3ZsbPVVnu00=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		E9fzrCw3bYy2JFTiFRArEFkc7ds=
+		ZAe6T95KbugAZRym5+wSCZ/VjDI=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		y4W0I59x8Yj/EDSOEEMjXXvyPvs=
+		74jfeTelBAydQDDkONzffAZwi/0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,49 +47,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F3PaaBXz6KXTV/jc1xskL/e6T30JBXF7TZubke18oxU=
+			9kWoe2x5KranyCSAaELJADqsbGasskUJcAKLXQrJris=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itV0U4Ka45pqB5Ek8XEgd4G4KRWvI7WnCvwpk6g1wEg=
+			KNxyvFoe2zcZSuuRF4e8FRxWlCsCIhdPG2SmCDZ6jQk=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8oiLbHtNgGXl7zBvyfZhz0yBZ/nJZ4ej8H7UbTqbU2o=
+			Td/YPvZENjqIeQxDjsAZBzPZAwebbLJKAi9ughjfE0A=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			god81cGv0DVyAh+vnVVzO9x4kWcpH44cn9AyalRzN/8=
+			XWQNClQVNPy383HWf5hFFIlAGOmtWEGKgV8RHmOcT8A=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXyX5rLid5dLSg4uTwo2omZ15b8fxzl7bTLP1tMMHCY=
+			SAun/Z4Y/zddqN5otctWPww1JLiHaTxG23g6cg9/dJM=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			god81cGv0DVyAh+vnVVzO9x4kWcpH44cn9AyalRzN/8=
+			XWQNClQVNPy383HWf5hFFIlAGOmtWEGKgV8RHmOcT8A=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			soTQsdYyfxwE2/0UMjtZDedZqXw7Ww+WyE9hlo+68p8=
+			MfebbC3uHMLLpqizw66IvbBivXQx3APcirN8N3eQjuU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
