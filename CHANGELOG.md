@@ -2,6 +2,25 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.2] - 2026-08-05
+### Added
+- `showCloseButton` on the ad response. When `false` the close and info buttons are not
+  drawn over a banner. Defaults to `true`, so a response without the field behaves as
+  before.
+
+### Fixed
+- Banners carrying a third party tag no longer paint the styled `adBackColor` behind the
+  creative. A tag is scaled to fit and rarely matches its box exactly, so the backdrop
+  showed as black bars either side of it. Other templates keep the configured colour.
+- A tag scales itself against the viewport it was measured in — the offscreen full screen
+  box. Any change to its box after the first 8 seconds left it transformed for a box it
+  was no longer in. The page now recomputes on its own `resize`, and the banner reacts to
+  height changes as well as width.
+
+### Updated
+- AdmostAdServer 1.3.2. Measurement logs now report what the tag actually drew, and Safari's
+  Web Inspector can attach to the tag's web view under debug logging.
+
 ## [1.3.1] - 2026-08-05
 ### Fixed
 - Third party tags that declare no size of their own now render. Such a tag collapsed the
