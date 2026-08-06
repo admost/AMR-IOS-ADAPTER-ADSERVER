@@ -2,6 +2,14 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.3] - 2026-08-06
+### Fixed
+- `AdmostAdServerResources.bundle` no longer contains a Mach-O executable. Xcode had been
+  compiling a generated version stub into the resource bundle and code signing it, which
+  made App Store validation reject every app embedding the adapter with "Invalid bundle
+  structure … binary file is not permitted" and "Missing Code Signing Entitlements". The
+  bundle now ships as resources only.
+
 ## [1.3.2] - 2026-08-05
 ### Added
 - `showCloseButton` on the ad response. When `false` the close and info buttons are not
