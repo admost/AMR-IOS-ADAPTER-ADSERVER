@@ -10,6 +10,15 @@ let package = Package(
         .library(
             name: "AMRAdapterAdserver",
             targets: ["AMRAdapterAdserver"]
+        ),
+        // AdmostAdServer.framework is dynamic, and EDM4U attaches Swift package
+        // products to UnityFramework only, with no Embed & Sign phase. Reached
+        // just through AMRAdapterAdserver it never lands in the .app and the
+        // player dies at launch with "dyld: Library not loaded". Exposing it as
+        // its own product lets a Unity project attach it to the app target too.
+        .library(
+            name: "AdmostAdServer",
+            targets: ["AdmostAdServer"]
         )
     ],
     dependencies: [
@@ -34,12 +43,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterAdserverLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.4/AMRAdapterAdserver.xcframework.zip",
-            checksum: "71d93d2e7c2a3ef2f3edfd485246438670e24484a3ec4bfa623341bf19b9ae04"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.5/AMRAdapterAdserver.xcframework.zip",
+            checksum: "689bd80e1dde46b7cb942f173b47fba9aef24cdb42cdb25e9194a27323541b4b"
         ),
         .binaryTarget(
             name: "AdmostAdServer",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.4/AdmostAdServer.xcframework.zip",
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.5/AdmostAdServer.xcframework.zip",
             checksum: "e5c6c785f2d6098b943feac979eab4682c70ca5d59fdd7eb1388507dadb9116b"
         )
     ]

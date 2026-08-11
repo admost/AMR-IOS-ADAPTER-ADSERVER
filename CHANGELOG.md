@@ -2,6 +2,11 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.5] - 2026-08-11
+### Updated
+- Expose AdmostAdServer as its own Swift package product so a Unity/EDM4U project can attach it to the app target; the framework is dynamic and was never embedded when reached only through the adapter
+- No SDK change: still AdmostAdServer 1.3.4
+
 ## [1.3.4] - 2026-08-11
 ### Updated
 - AdmostAdServer 1.3.4
