@@ -2,6 +2,12 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.3.4] - 2026-08-11
+### Updated
+- AdmostAdServer 1.3.4
+- Arc (progress ring) added for all ad types
+- SDK sdkVersion constant corrected: it was still reporting 1.3.2 in the 1.3.3 release
+
 ## [1.3.3] - 2026-08-06
 ### Fixed
 - `AdmostAdServerResources.bundle` no longer contains a Mach-O executable. Xcode had been
