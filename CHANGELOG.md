@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.4.0] - 2026-08-18
+### Updated
+- AdmostAdServer 1.4.0: VAST support (parser, wrapper resolution, media-file selection, macro expansion, quartile and impression tracking, OMID video session)
+
 ## [1.3.5] - 2026-08-11
 ### Updated
 - Expose AdmostAdServer as its own Swift package product so a Unity/EDM4U project can attach it to the app target; the framework is dynamic and was never embedded when reached only through the adapter

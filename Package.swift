@@ -43,13 +43,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterAdserverLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.5/AMRAdapterAdserver.xcframework.zip",
-            checksum: "689bd80e1dde46b7cb942f173b47fba9aef24cdb42cdb25e9194a27323541b4b"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.4.0/AMRAdapterAdserver.xcframework.zip",
+            checksum: "465190bfb83ad44127651dfa282b7f7689de9d29c13683a31256fea4c732c4d8"
         ),
         .binaryTarget(
             name: "AdmostAdServer",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.3.5/AdmostAdServer.xcframework.zip",
-            checksum: "e5c6c785f2d6098b943feac979eab4682c70ca5d59fdd7eb1388507dadb9116b"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.4.0/AdmostAdServer.xcframework.zip",
+            checksum: "b97936c48074d6d8c9ea104dcdb1bc20ee647c8cca6a23fd695dff949f185e8a"
         )
     ]
 )
