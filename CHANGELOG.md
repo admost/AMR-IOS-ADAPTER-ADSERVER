@@ -2,6 +2,12 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.5.0] - 2026-08-27
+### Updated
+- AdmostAdServer is now consumed from its own package/pod (https://github.com/admost/AdmostAdServer-iOS) instead of being vendored inside this adapter; the requirement is 1.5.x, so an AdServer patch release reaches publishers without a new adapter release
+- Minimum iOS raised to 15.0, required by AdmostAdServer 1.5.0
+- The separate `AdmostAdServer` SPM product is gone; the Unity plugin embeds dynamic frameworks itself in AMRPostProcessBuild.cs
+
 ## [1.4.0] - 2026-08-18
 ### Updated
 - AdmostAdServer 1.4.0: VAST support (parser, wrapper resolution, media-file selection, macro expansion, quartile and impression tracking, OMID video session)

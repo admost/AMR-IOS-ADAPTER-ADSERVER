@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAdserver'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
@@ -16,10 +16,9 @@ Pod::Spec.new do |s|
                 }
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform      = :ios
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
   s.swift_versions = ['5']
-  s.vendored_frameworks = 'AMRAdapterAdserver/Libs/AMRAdapterAdserver.xcframework', 'AMRAdapterAdserver/Libs/AdmostAdServer.xcframework'
-  s.resources = ['AMRAdapterAdserver/Resources/AdmostAdServerResources.bundle']
+  s.vendored_frameworks = 'AMRAdapterAdserver/Libs/AMRAdapterAdserver.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC',
     "VALID_ARCHS": "arm64 x86_64",
@@ -27,4 +26,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.84'
+  s.dependency 'AdmostAdServer', '~> 1.5.0'
 end
