@@ -2,6 +2,10 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.6.1] - 2026-09-09
+### Updated
+- Official release for AdmostAdServer 1.6.1
+
 ## [1.5.0] - 2026-08-27
 ### Updated
 - AdmostAdServer is now consumed from its own package/pod (https://github.com/admost/AdmostAdServer-iOS) instead of being vendored inside this adapter; the requirement is 1.5.x, so an AdServer patch release reaches publishers without a new adapter release
