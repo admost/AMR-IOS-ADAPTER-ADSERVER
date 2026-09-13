@@ -2,6 +2,11 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.6.2] - 2026-09-13
+### Updated
+- Official release for AdmostAdServer 1.6.2
+- Requires AMRSDK 1.6.2 or later
+
 ## [1.6.1] - 2026-09-09
 ### Updated
 - Official release for AdmostAdServer 1.6.1

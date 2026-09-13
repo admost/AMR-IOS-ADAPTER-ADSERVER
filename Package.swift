@@ -15,10 +15,12 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.6.1"),
-        // Any 1.5.x, so an AdServer patch release reaches publishers without
+        // 1.6.2 is the floor: interscroller placements stop entering banner
+        // auto-refresh there, and the adapter hands the SDK an interscroller.
+        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.6.2"),
+        // Any 1.6.x, so an AdServer patch release reaches publishers without
         // a new adapter release. A minor bump is a deliberate adapter change.
-        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.1"))
+        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.2"))
     ],
     targets: [
         .target(
@@ -36,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterAdserverLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.1/AMRAdapterAdserver.xcframework.zip",
-            checksum: "61b1bcf488871fb6c0784faed0bd7f93daffa0e0dfcd5b9c8ce4e59cdb6b2d15"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.2/AMRAdapterAdserver.xcframework.zip",
+            checksum: "34ec4c1a0b2e1b8cc446d3f2efe92fdafcfc9a4c87467e54c17ed57513423f97"
         )
     ]
 )
