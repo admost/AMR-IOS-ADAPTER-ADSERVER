@@ -20,7 +20,9 @@ let package = Package(
         .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.6.2"),
         // Any 1.6.x, so an AdServer patch release reaches publishers without
         // a new adapter release. A minor bump is a deliberate adapter change.
-        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.2"))
+        // 1.6.3 is the floor: earlier builds ship a privacy manifest that App
+        // Store Connect rejects with ITMS-91064.
+        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.3"))
     ],
     targets: [
         .target(
@@ -38,8 +40,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterAdserverLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.2/AMRAdapterAdserver.xcframework.zip",
-            checksum: "34ec4c1a0b2e1b8cc446d3f2efe92fdafcfc9a4c87467e54c17ed57513423f97"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.3/AMRAdapterAdserver.xcframework.zip",
+            checksum: "9edd40ebf156932e9e954dae3439bb2875a283c25df660e6800d7bc88ed93c93"
         )
     ]
 )

@@ -2,6 +2,11 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.6.3] - 2026-09-23
+### Updated
+- Official release for AdmostAdServer 1.6.3
+- Requires AdmostAdServer 1.6.3 or later, which fixes the ITMS-91064 privacy manifest rejection
+
 ## [1.6.2] - 2026-09-13
 ### Updated
 - Official release for AdmostAdServer 1.6.2
