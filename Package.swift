@@ -22,7 +22,7 @@ let package = Package(
         // a new adapter release. A minor bump is a deliberate adapter change.
         // 1.6.3 is the floor: earlier builds ship a privacy manifest that App
         // Store Connect rejects with ITMS-91064.
-        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.3"))
+        .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", .upToNextMinor(from: "1.6.4"))
     ],
     targets: [
         .target(
@@ -40,8 +40,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterAdserverLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.3/AMRAdapterAdserver.xcframework.zip",
-            checksum: "9edd40ebf156932e9e954dae3439bb2875a283c25df660e6800d7bc88ed93c93"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/releases/download/1.6.4/AMRAdapterAdserver.xcframework.zip",
+            checksum: "bcce94428096c4cef9f8f818ef834d9427357eeb49e84cb2ab1c82eac7a3f601"
         )
     ]
 )

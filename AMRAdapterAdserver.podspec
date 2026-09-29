@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAdserver'
-  s.version          = '1.6.3'
+  s.version          = '1.6.4'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.6.2'
-  s.dependency 'AdmostAdServer', '~> 1.6.2'
+  s.dependency 'AdmostAdServer', '~> 1.6.4'
 end

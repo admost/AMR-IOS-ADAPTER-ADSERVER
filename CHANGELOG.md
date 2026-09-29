@@ -2,6 +2,12 @@
 
 Changelog for AMRAdapterAdserver.
 
+## [1.6.4] - 2026-09-29
+### Updated
+- Official release for AdmostAdServer 1.6.4
+- Native ads now carry the campaign's adBackColor and titleColor on AMRNativeAdAssets
+- Requires AdmostAdServer 1.6.4 or later
+
 ## [1.6.3] - 2026-09-23
 ### Updated
 - Official release for AdmostAdServer 1.6.3
